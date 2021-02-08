@@ -1,0 +1,5 @@
+﻿-recurse:Editor/*.cs
+-recurse:Runtime/*.cs
+-recurse:Tests/*.cs
+-recurse:.build/Mux.Build.Tasks/*.cs
+-recurse:.build/doc/Assets/*.cs

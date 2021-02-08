@@ -1,0 +1,18 @@
+{
+  "name": "mux-playground",
+  "version": "0.0.0",
+  "description": "Mux Playground",
+  "repository": "github:pixiv/Mux",
+  "author": "Akihiko Odaki <nekomanma@pixiv.co.jp>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "license-webpack-plugin": "^2.3.10",
+    "monaco-editor": "^0.21.2",
+    "monaco-editor-webpack-plugin": "^2.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.12.3",
+    "webpack-cli": "^4.3.1"
+  }
+}

@@ -1,0 +1,26 @@
+﻿<m:RectTransform
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:m="clr-namespace:Mux.Markup;assembly=Mux.Markup"
+    xmlns:mu="clr-namespace:Mux.Markup;assembly=Mux.Markup.UI"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:playground="using:Mux.Playground"
+    xmlns:playgroundMarkup="using:Mux.Playground.Markup"
+    x:Class="Mux.Playground.Markup.ToggleTransform"
+    x:DataType="playground:ViewModel"
+    x:Name="_transform"
+    X="{m:Sized SizeDelta=160}"
+    Y="{m:Sized SizeDelta=20}">
+    <mu:Toggle x:Name="_toggle" Group="{Binding Group, Source={x:Reference _transform}}" />
+    <m:RectTransform X="{m:Sized Anchor=0, AnchoredPosition=10, SizeDelta=20}" Y="{m:Sized Anchor=1, AnchoredPosition=-10, SizeDelta=20}">
+        <mu:Image Body="{Binding TargetGraphic, Source={x:Reference _toggle}}" Sprite="{Binding Resources.UISprite}" Type="Sliced" />
+        <m:RectTransform X="{m:Sized SizeDelta=20}" Y="{m:Sized SizeDelta=20}">
+            <mu:Image
+                Body="{Binding Graphic, Source={x:Reference _toggle}}"
+                Sprite="{Binding Resources.Checkmark}" />
+        </m:RectTransform>
+    </m:RectTransform>
+    <playgroundMarkup:TextTransform
+        Text="Toggle"
+        X="{m:Stretch OffsetMax=-5, OffsetMin=23}"
+        Y="{m:Stretch OffsetMax=-2, OffsetMin=1}" />
+</m:RectTransform>

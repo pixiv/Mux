@@ -1,0 +1,58 @@
+﻿{
+    "metadata": [
+        {
+            "src": [
+                {
+                    "files": [
+                        "Editor/Mux.Editor/docfx.csproj",
+                        "Runtime/Mux/docfx.csproj",
+                        "Runtime/Mux.Markup/docfx.csproj",
+                        ".build/doc/Packages/Mux.Markup.Animation/Runtime/docfx.csproj",
+                        ".build/doc/Packages/Mux.Markup.UI/Runtime/docfx.csproj"
+                    ],
+                    "src": "../.."
+                }
+            ],
+            "dest": "obj/api",
+            "disableGitFeatures": false,
+            "disableDefaultFilter": false
+        }
+    ],
+    "build": {
+        "content": [
+            {
+                "files": [ "**.yml" ],
+                "src": "obj/api",
+                "dest": "api"
+            },
+            {
+                "files": [ "**.md" ],
+                "src": "articles"
+            },
+            {
+                "files": [ "**.md" ],
+                "src": "obj"
+            },
+            {
+                "files": [ "toc.yml" ]
+            }
+        ],
+        "resource": [ "logo.svg" ],
+        "dest": "bin",
+        "globalMetadataFiles": [],
+        "fileMetadataFiles": [],
+        "template": [
+            "default",
+            "../../.docfx_template",
+            "theme"
+        ],
+        "postProcessors": [],
+        "markdownEngineName": "markdig",
+        "noLangKeyword": false,
+        "keepFileLink": false,
+        "cleanupCacheHistory": false,
+        "disableGitFeatures": false,
+        "xref": ["xrefmap.yml"],
+        "xrefService": ["https://xref.docs.microsoft.com/query?uid={uid}"]
+    }
+}

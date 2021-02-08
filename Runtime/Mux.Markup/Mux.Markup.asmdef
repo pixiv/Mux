@@ -1,0 +1,10 @@
+{
+    "name": "Mux.Markup",
+    "references": [
+        "Mux"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

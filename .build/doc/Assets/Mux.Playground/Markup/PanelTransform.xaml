@@ -1,0 +1,15 @@
+﻿<m:RectTransform
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:m="clr-namespace:Mux.Markup;assembly=Mux.Markup"
+    xmlns:mu="clr-namespace:Mux.Markup;assembly=Mux.Markup.UI"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:playground="using:Mux.Playground"
+    x:DataType="playground:ViewModel"
+    x:Class="Mux.Playground.Markup.PanelTransform"
+    X="{m:Stretch}"
+    Y="{m:Stretch}">
+    <mu:Image
+        Color="{m:Color R=1, B=1, G=1, A=0.4}"
+        Sprite="{Binding Resources.Background}"
+        Type="Sliced" />
+</m:RectTransform>

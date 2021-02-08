@@ -1,0 +1,100 @@
+﻿<!--
+    Copyright 2019 pixiv Inc.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<Project>
+    <PropertyGroup>
+        <TargetFramework>net46</TargetFramework>
+        <RestoreOutputPath>obj</RestoreOutputPath>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference GeneratePathProperty="true" Include="Microsoft.Build.Framework" Version="15.9.20" />
+        <PackageReference GeneratePathProperty="true" Include="Microsoft.Build.Utilities.Core" Version="15.9.20" />
+        <PackageReference GeneratePathProperty="true" Include="System.Collections.Immutable" Version="1.5.0" />
+        <PackageReference GeneratePathProperty="true" Include="System.Reflection.Metadata" Version="1.6.0" />
+        <PackageReference GeneratePathProperty="true" Include="System.Reflection.TypeExtensions" Version="4.5.1" />
+    </ItemGroup>
+    <Import Condition="Exists('$(RestoreOutputPath)/Mux.msbuildproj.nuget.g.props')" Project="$(RestoreOutputPath)/Mux.msbuildproj.nuget.g.props" />
+    <Import Condition="Exists('$(RestoreOutputPath)/Mux.msbuildproj.nuget.g.targets')" Project="$(RestoreOutputPath)/Mux.msbuildproj.nuget.g.targets" />
+    <Import Project="$(MSBuildToolsPath)/NuGet.targets" />
+    <UsingTask
+        AssemblyFile="Mux.Build.Tasks/bin/$(Configuration)/net47/Mux.Build.Tasks.dll"
+        TaskName="CreateThirdPartyNotices" />
+    <UsingTask
+        AssemblyFile="Mux.Build.Tasks/bin/$(Configuration)/net47/Mux.Build.Tasks.dll"
+        TaskName="InternalizeXamarin" />
+    <Target AfterTargets="Restore" Name="RestoreXamarin">
+        <MSBuild Targets="Restore" Projects="
+            Mux.Build.Tasks/Mux.Build.Tasks.csproj;
+            Xamarin.Forms/Xamarin.Forms.Build.Tasks/Xamarin.Forms.Build.Tasks.csproj" />
+    </Target>
+    <Target Name="BuildTasks">
+        <MSBuild Projects="
+            Mux.Build.Tasks/Mux.Build.Tasks.csproj;
+            Xamarin.Forms/Xamarin.Forms.Build.Tasks/Xamarin.Forms.Build.Tasks.csproj" />
+    </Target>
+    <Target DependsOnTargets="BuildTasks" Name="CreateThirdPartyNotices">
+        <CreateThirdPartyNotices
+            ComponentNames="
+                Microsoft.Build.Framework;
+                Microsoft.Build.Utilities.Core;
+                System.Collections.Immutable;;
+                System.Reflection.Metadata;;
+                System.Reflection.TypeExtensions;;
+                Xamarin.Forms"
+            Notices="
+                $(PkgMicrosoft_Build_Framework)/notices/THIRDPARTYNOTICES.txt;
+                $(PkgMicrosoft_Build_Utilities_Core)/notices/THIRDPARTYNOTICES.txt;
+                $(PkgSystem_Collections_Immutable)/LICENSE.TXT;$(PkgSystem_Collections_Immutable)/THIRD-PARTY-NOTICES.TXT;
+                $(PkgSystem_Reflection_Metadata)/LICENSE.TXT;$(PkgSystem_Reflection_Metadata)/THIRD-PARTY-NOTICES.TXT;
+                $(PkgSystem_Reflection_TypeExtensions)/LICENSE.TXT;$(PkgSystem_Reflection_TypeExtensions)/THIRD-PARTY-NOTICES.TXT;
+                Xamarin.Forms/LICENSE" />
+    </Target>
+    <Target DependsOnTargets="BuildTasks" Name="CopyEditorPlugins">
+        <Copy DestinationFolder="../Editor/Plugins" SourceFiles="
+            Xamarin.Forms/Xamarin.Forms.Build.Tasks/bin/$(Configuration)/$(TargetFramework)/Xamarin.Forms.Build.Tasks.dll;
+            Xamarin.Forms/Xamarin.Forms.Build.Tasks/bin/$(Configuration)/$(TargetFramework)/Xamarin.Forms.Build.Tasks.pdb" />
+    </Target>
+    <Target DependsOnTargets="BuildTasks" Name="CopyRuntimePlugins">
+        <Copy DestinationFolder="../Runtime/Plugins" SourceFiles="
+            $(PkgMicrosoft_Build_Framework)/lib/net46/Microsoft.Build.Framework.dll;
+            $(PkgMicrosoft_Build_Framework)/lib/net46/Microsoft.Build.Framework.pdb;
+            $(PkgMicrosoft_Build_Framework)/lib/net46/Microsoft.Build.Framework.xml;
+            $(PkgMicrosoft_Build_Utilities_Core)/lib/net46/Microsoft.Build.Utilities.Core.dll;
+            $(PkgMicrosoft_Build_Utilities_Core)/lib/net46/Microsoft.Build.Utilities.Core.pdb;
+            $(PkgMicrosoft_Build_Utilities_Core)/lib/net46/Microsoft.Build.Utilities.Core.xml;
+            $(PkgSystem_Collections_Immutable)/lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll;
+            $(PkgSystem_Collections_Immutable)/lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml;
+            $(PkgSystem_Reflection_Metadata)/lib/portable-net45+win8/System.Reflection.Metadata.dll;
+            $(PkgSystem_Reflection_Metadata)/lib/portable-net45+win8/System.Reflection.Metadata.xml;
+            $(PkgSystem_Reflection_TypeExtensions)/lib/net46/System.Reflection.TypeExtensions.dll;
+            Xamarin.Forms/Xamarin.Forms.Build.Tasks/bin/$(Configuration)/$(TargetFramework)/Xamarin.Forms.Core.dll;
+            Xamarin.Forms/Xamarin.Forms.Build.Tasks/bin/$(Configuration)/$(TargetFramework)/Xamarin.Forms.Core.pdb;
+            Xamarin.Forms/Xamarin.Forms.Build.Tasks/bin/$(Configuration)/$(TargetFramework)/Xamarin.Forms.Platform.dll;
+            Xamarin.Forms/Xamarin.Forms.Build.Tasks/bin/$(Configuration)/$(TargetFramework)/Xamarin.Forms.Platform.pdb;
+            Xamarin.Forms/Xamarin.Forms.Build.Tasks/bin/$(Configuration)/$(TargetFramework)/Xamarin.Forms.Xaml.dll;
+            Xamarin.Forms/Xamarin.Forms.Build.Tasks/bin/$(Configuration)/$(TargetFramework)/Xamarin.Forms.Xaml.pdb;
+            Xamarin.Forms/docs/Xamarin.Forms.Core.xml;
+            Xamarin.Forms/docs/Xamarin.Forms.Xaml.xml" />
+        <InternalizeXamarin />
+    </Target>
+    <Target Name="Build" DependsOnTargets="CopyEditorPlugins;CopyRuntimePlugins;CreateThirdPartyNotices" />
+    <Target Name="Clean">
+        <ItemGroup>
+           <OutputFiles Include="../Editor/Plugins;../Licenses/**/*;../Runtime/Plugins/*" Exclude="../Licenses/**/*.meta;../Plugins/*.meta" />
+        </ItemGroup>
+        <Delete Files="@(OutputFiles)" />
+    </Target>
+</Project>

@@ -1,0 +1,15 @@
+{
+  "author": {
+    "name": "pixiv Inc.",
+    "url": "https://www.pixiv.co.jp/"
+  },
+  "dependencies": {
+    "com.unity.nuget.mono-cecil": "1.10.1",
+    "com.unity.settings-manager": "1.0.1"
+  },
+  "description": "Mux is a tool kit for Unity.",
+  "displayName": "Mux",
+  "name": "com.pixiv.mux",
+  "unity": "2020.2",
+  "version": "0.0.0"
+}

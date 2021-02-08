@@ -1,0 +1,3 @@
+[submodule ".build/doc/nunit-transforms"]
+	path = .build/doc/nunit-transforms
+	url = https://github.com/nunit/nunit-transforms.git

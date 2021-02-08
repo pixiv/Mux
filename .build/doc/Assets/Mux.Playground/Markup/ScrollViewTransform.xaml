@@ -1,0 +1,35 @@
+<playgroundMarkup:PanelTransform
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:m="clr-namespace:Mux.Markup;assembly=Mux.Markup"
+    xmlns:mu="clr-namespace:Mux.Markup;assembly=Mux.Markup.UI"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:playground="using:Mux.Playground"
+    xmlns:playgroundMarkup="using:Mux.Playground.Markup"
+    x:Class="Mux.Playground.Markup.ScrollViewTransform"
+    x:DataType="playground:ViewModel"
+    x:Name="_transform"
+    X="{m:Sized SizeDelta=200}"
+    Y="{m:Sized SizeDelta=200}">
+    <mu:ScrollRect
+        x:DataType="playgroundMarkup:ScrollViewTransform"
+        x:Name="_scrollRect"
+        BindingContext="{x:Reference _transform}"
+        HorizontalScrollbarVisibility="{Binding HorizontalScrollbarVisibility}"
+        Inertia="{Binding Inertia}"
+        Movement="{Binding Movement}"
+        VerticalScrollbarVisibility="{Binding VerticalScrollbarVisibility}" />
+    <m:RectTransform x:Name="_viewport" Body="{Binding Viewport, Source={x:Reference _scrollRect}}">
+        <mu:Mask ShowMaskGraphic="False" />
+        <mu:Image Sprite="{Binding Resources.UIMask}" Type="Sliced" />
+    </m:RectTransform>
+    <playgroundMarkup:ScrollbarTransform
+        Direction="LeftToRight"
+        Scrollbar="{Binding HorizontalScrollbar, Source={x:Reference _scrollRect}}"
+        X="{m:Stretch Pivot=0}"
+        Y="{m:Sized Anchor=0, Pivot=0, SizeDelta=20}" />
+    <playgroundMarkup:ScrollbarTransform
+        Direction="BottomToTop"
+        Scrollbar="{Binding VerticalScrollbar, Source={x:Reference _scrollRect}}"
+        X="{m:Sized Anchor=1, Pivot=1, SizeDelta=20}"
+        Y="{m:Stretch Pivot=1}" />
+</playgroundMarkup:PanelTransform>

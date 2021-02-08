@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "com.pixiv.mux": "file:../../..",
+    "com.unity.ext.nunit": "1.0.5",
+    "com.unity.ide.rider": "2.0.7",
+    "com.unity.ide.visualstudio": "2.0.5",
+    "com.unity.ide.vscode": "1.2.3",
+    "com.unity.test-framework": "1.1.19",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.physics2d": "1.0.0",
+    "com.unity.modules.ui": "1.0.0"
+  },
+  "testables": [
+    "com.pixiv.mux",
+    "com.pixiv.mux.markup.ui"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Mux.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Mux.Markup",
+        "Unity.Settings.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Microsoft.Build.Framework.dll",
+        "Microsoft.Build.Utilities.Core.dll",
+        "Mono.Cecil.dll",
+        "Xamarin.Forms.Build.Tasks.dll",
+        "Xamarin.Forms.Core.dll",
+        "Xamarin.Forms.Xaml.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

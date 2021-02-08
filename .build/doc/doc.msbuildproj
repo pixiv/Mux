@@ -1,0 +1,87 @@
+﻿<!--
+    Copyright 2019 pixiv Inc.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<Project DefaultTargets="Build;CheckEditmodeTestResults;CheckPlaymodeTestResults">
+    <PropertyGroup>
+        <LogFile Condition=" '$(LogFile)' == '' ">obj/log.txt</LogFile>
+        <PreviewOutputFolder>bin</PreviewOutputFolder>
+        <RestoreOutputPath>obj</RestoreOutputPath>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="docfx.console" Version="2.56.6" />
+    </ItemGroup>
+    <Import Condition="Exists('$(RestoreOutputPath)/doc.msbuildproj.nuget.g.props')" Project="$(RestoreOutputPath)/doc.msbuildproj.nuget.g.props" />
+    <Import Condition="Exists('$(RestoreOutputPath)/doc.msbuildproj.nuget.g.targets')" Project="$(RestoreOutputPath)/doc.msbuildproj.nuget.g.targets" />
+    <Import Project="$(MSBuildToolsPath)/NuGet.targets" />
+	<Target Name="Build" DependsOnTargets="Report;MoveGallery;MovePlayground;Webpack" />
+    <Target Name="CoreCompile" />
+    <Target Name="CreateManifestResourceNames" />
+    <Target AfterTargets="Restore" Name="RestoreNpm"><Exec Command="npm ci" /></Target>
+    <Target Name="TestEditmode">
+        <Exec
+            Command="Unity -batchmode -logFile -nographics -runTests -projectPath . -testPlatform editmode -testResults obj/tests/editmode/results.xml"
+            IgnoreExitCode="true" />
+    </Target>
+    <Target AfterTargets="TestEditmode" Name="TestPlaymode">
+        <Exec
+            Command="Unity -batchmode -logFile -nographics -runTests -projectPath . -testPlatform playmode -testResults obj/tests/playmode/results.xml"
+            IgnoreExitCode="true" />
+    </Target>
+    <Target AfterTargets="TestPlaymode" Name="BuildGallery">
+        <Exec
+            Command="Unity -batchmode -logFile -nographics -quit -buildTarget WebGL -executeMethod Tasks.BuildGallery -projectPath ."
+            IgnoreExitCode="true" />
+    </Target>
+    <Target AfterTargets="BuildGallery" Name="BuildPlayground">
+        <Exec
+            Command="Unity -batchmode -logFile -nographics -quit -buildTarget WebGL -executeMethod Tasks.BuildPlayground -projectPath ."
+            IgnoreExitCode="true" />
+    </Target>
+    <Target DependsOnTargets="TestEditmode" Name="CheckEditmodeTestResults">
+        <XmlPeek Query="/*/@result" XmlInputPath="obj/tests/editmode/results.xml">
+            <Output TaskParameter="Result" ItemName="EditmodeResult" />
+        </XmlPeek>
+        <Error Condition=" '@(EditmodeResult)' != 'Passed' " Text="Edit mode tests did not pass." />
+    </Target>
+    <Target DependsOnTargets="TestPlaymode" Name="CheckPlaymodeTestResults">
+        <XmlPeek Query="/*/@result" XmlInputPath="obj/tests/playmode/results.xml">
+            <Output TaskParameter="Result" ItemName="PlaymodeResult" />
+        </XmlPeek>
+        <Error Condition=" '@(PlaymodeResult)' != 'Passed' " Text="Play mode tests did not pass." />
+    </Target>
+    <Target DependsOnTargets="TestEditmode;TestPlaymode" Name="Report">
+        <XslTransformation
+            OutputPaths="obj/tests/editmode/results.md;obj/tests/playmode/results.md"
+            XmlInputPaths="obj/tests/editmode/results.xml;obj/tests/playmode/results.xml"
+            XslInputPath="nunit-transforms/nunit3-summary/html-report.xslt" />
+    </Target>
+    <Target DependsOnTargets="BuildGallery" Name="MoveGallery">
+		<CreateItem Include="obj/gallery/Build/*">
+			<Output ItemName="GalleryFiles" TaskParameter="Include" />
+		</CreateItem>
+		<Move DestinationFolder="bin/playground/gallery" SourceFiles="@(GalleryFiles)" />
+    </Target>
+    <Target DependsOnTargets="BuildPlayground" Name="MovePlayground">
+		<CreateItem Include="obj/playground/Build/*">
+			<Output ItemName="PlaygroundFiles" TaskParameter="Include" />
+		</CreateItem>
+		<Move DestinationFolder="bin/playground/playground" SourceFiles="@(PlaygroundFiles)" />
+    </Target>
+    <Target Name="Webpack">
+        <Exec Command="npx webpack --mode production" />
+    </Target>
+</Project>

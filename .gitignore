@@ -1,0 +1,13 @@
+﻿/.build/Xamarin.Forms
+/.build/doc/Library
+/.build/doc/Logs
+/.build/doc/Mux.Markup.Animation
+/.build/doc/Mux.Markup.UI
+/.build/doc/Temp
+/.build/doc/node_modules
+/.build/doc/*.csproj
+/.build/doc/*.sln
+bin
+bin.meta
+obj
+obj.meta

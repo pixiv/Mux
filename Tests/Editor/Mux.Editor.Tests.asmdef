@@ -1,0 +1,23 @@
+{
+    "name": "Mux.Editor.Tests",
+    "references": [
+        "Mux.Editor"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Microsoft.Build.Framework.dll",
+        "Microsoft.Build.Utilities.Core.dll",
+        "Mono.Cecil.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

@@ -1,0 +1,497 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class UIVertex
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class UIVertex
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <svg aria-label="Toggle navigation" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" role="button" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M4 7a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1zm0 5a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1zm1 4a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H5z" fill="currentColor"></path>
+              </svg>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="navbar">
+              <form class="navbar-form" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Mux.Markup.UIVertex">
+  
+  
+  <h1 id="Mux_Markup_UIVertex" data-uid="Mux.Markup.UIVertex" class="text-break">Class UIVertex
+  </h1>
+  <div class="markdown level0 summary"><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.xaml.imarkupextension-1">markup extension</a>
+that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/UIVertex.html">UnityEngine.UIVertex</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">UIVertex</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.xaml.imarkupextension-1">IMarkupExtension</a>&lt;<a class="xref" href="https://docs.unity3d.com/ScriptReference/UIVertex.html">UnityEngine.UIVertex</a>&gt;</div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.xaml.imarkupextension">IMarkupExtension</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mux.Markup.html">Mux.Markup</a></h6>
+  <h6><strong>Assembly</strong>: Mux.Markup.dll</h6>
+  <h5 id="Mux_Markup_UIVertex_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UIVertex : object, IMarkupExtension&lt;UnityEngine.UIVertex&gt;, IMarkupExtension</code></pre>
+  </div>
+  <h5 id="Mux_Markup_UIVertex_examples"><strong>Examples</strong></h5>
+  <pre><code class="lang-xaml">&lt;m:RectTransform
+    xmlns=&quot;http://xamarin.com/schemas/2014/forms&quot;
+    xmlns:m=&quot;clr-namespace:Mux.Markup;assembly=Mux.Markup&quot;
+    xmlns:mu=&quot;clr-namespace:Mux.Markup;assembly=Mux.Markup.UI&quot;
+    xmlns:mue=&quot;clr-namespace:Mux.Markup.Extras;assembly=Mux.Markup.UI&quot;
+    xmlns:x=&quot;http://schemas.microsoft.com/winfx/2009/xaml&quot;>
+    &lt;mu:StandaloneInputModule />
+    &lt;mu:Canvas />
+    &lt;mu:CanvasScaler UiScale=&quot;{mu:ConstantPhysicalSize}&quot; />
+    &lt;mu:GraphicRaycaster />
+    &lt;mue:UIMesh>
+        &lt;!--
+            You only have to wrap items with mue:UIMesh.Items
+            when you compile the interpreter with IL2CPP.
+            It is because ContentPropertyAttribute does not work with IL2CPP.
+        -->
+        &lt;mue:UIMesh.Items>
+            &lt;mue:UIVertexTriangleStream>
+                &lt;!--
+                    Wrapping with mue:UIVertexTriangleStream.Verts
+                    for the same reason
+                -->
+                &lt;mue:UIVertexTriangleStream.Verts>
+                    &lt;m:UIVertex Position=&quot;{m:Vector3 X=-0.5, Y=-0.5, Z=0}&quot; />
+                    &lt;m:UIVertex Position=&quot;{m:Vector3 X=0, Y=0.5, Z=0}&quot; />
+                    &lt;m:UIVertex Position=&quot;{m:Vector3 X=0.5, Y=-0.5, Z=0}&quot; />
+                &lt;/mue:UIVertexTriangleStream.Verts>
+            &lt;/mue:UIVertexTriangleStream>
+        &lt;/mue:UIMesh.Items>
+    &lt;/mue:UIMesh>
+&lt;/m:RectTransform></code></pre>
+
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_UIVertex_Color.md&amp;value=---%0Auid%3A%20Mux.Markup.UIVertex.Color%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/MarkupExtensions/UIVertex.cs/#L82">View Source</a>
+  </span>
+  <a id="Mux_Markup_UIVertex_Color_" data-uid="Mux.Markup.UIVertex.Color*"></a>
+  <h4 id="Mux_Markup_UIVertex_Color" data-uid="Mux.Markup.UIVertex.Color">Color</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/UIVertex-color.html">UnityEngine.UIVertex.color</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Color32 Color { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Color32.html">UnityEngine.Color32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_UIVertex_Normal.md&amp;value=---%0Auid%3A%20Mux.Markup.UIVertex.Normal%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/MarkupExtensions/UIVertex.cs/#L72">View Source</a>
+  </span>
+  <a id="Mux_Markup_UIVertex_Normal_" data-uid="Mux.Markup.UIVertex.Normal*"></a>
+  <h4 id="Mux_Markup_UIVertex_Normal" data-uid="Mux.Markup.UIVertex.Normal">Normal</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/UIVertex-normal.html">UnityEngine.UIVertex.normal</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Vector3 Normal { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector3.html">UnityEngine.Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_UIVertex_Position.md&amp;value=---%0Auid%3A%20Mux.Markup.UIVertex.Position%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/MarkupExtensions/UIVertex.cs/#L67">View Source</a>
+  </span>
+  <a id="Mux_Markup_UIVertex_Position_" data-uid="Mux.Markup.UIVertex.Position*"></a>
+  <h4 id="Mux_Markup_UIVertex_Position" data-uid="Mux.Markup.UIVertex.Position">Position</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/UIVertex-position.html">UnityEngine.UIVertex.position</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Vector3 Position { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector3.html">UnityEngine.Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_UIVertex_Tangent.md&amp;value=---%0Auid%3A%20Mux.Markup.UIVertex.Tangent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/MarkupExtensions/UIVertex.cs/#L77">View Source</a>
+  </span>
+  <a id="Mux_Markup_UIVertex_Tangent_" data-uid="Mux.Markup.UIVertex.Tangent*"></a>
+  <h4 id="Mux_Markup_UIVertex_Tangent" data-uid="Mux.Markup.UIVertex.Tangent">Tangent</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/UIVertex-tangent.html">UnityEngine.UIVertex.tangent</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Vector4 Tangent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector4.html">UnityEngine.Vector4</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_UIVertex_Uv0.md&amp;value=---%0Auid%3A%20Mux.Markup.UIVertex.Uv0%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/MarkupExtensions/UIVertex.cs/#L87">View Source</a>
+  </span>
+  <a id="Mux_Markup_UIVertex_Uv0_" data-uid="Mux.Markup.UIVertex.Uv0*"></a>
+  <h4 id="Mux_Markup_UIVertex_Uv0" data-uid="Mux.Markup.UIVertex.Uv0">Uv0</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/UIVertex-uv0.html">UnityEngine.UIVertex.uv0</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Vector2 Uv0 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector2.html">UnityEngine.Vector2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_UIVertex_Uv1.md&amp;value=---%0Auid%3A%20Mux.Markup.UIVertex.Uv1%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/MarkupExtensions/UIVertex.cs/#L92">View Source</a>
+  </span>
+  <a id="Mux_Markup_UIVertex_Uv1_" data-uid="Mux.Markup.UIVertex.Uv1*"></a>
+  <h4 id="Mux_Markup_UIVertex_Uv1" data-uid="Mux.Markup.UIVertex.Uv1">Uv1</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/UIVertex-uv1.html">UnityEngine.UIVertex.uv1</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Vector2 Uv1 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector2.html">UnityEngine.Vector2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_UIVertex_Uv2.md&amp;value=---%0Auid%3A%20Mux.Markup.UIVertex.Uv2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/MarkupExtensions/UIVertex.cs/#L97">View Source</a>
+  </span>
+  <a id="Mux_Markup_UIVertex_Uv2_" data-uid="Mux.Markup.UIVertex.Uv2*"></a>
+  <h4 id="Mux_Markup_UIVertex_Uv2" data-uid="Mux.Markup.UIVertex.Uv2">Uv2</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/UIVertex-uv2.html">UnityEngine.UIVertex.uv2</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Vector2 Uv2 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector2.html">UnityEngine.Vector2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_UIVertex_Uv3.md&amp;value=---%0Auid%3A%20Mux.Markup.UIVertex.Uv3%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/MarkupExtensions/UIVertex.cs/#L102">View Source</a>
+  </span>
+  <a id="Mux_Markup_UIVertex_Uv3_" data-uid="Mux.Markup.UIVertex.Uv3*"></a>
+  <h4 id="Mux_Markup_UIVertex_Uv3" data-uid="Mux.Markup.UIVertex.Uv3">Uv3</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/UIVertex-uv3.html">UnityEngine.UIVertex.uv3</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Vector2 Uv3 { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector2.html">UnityEngine.Vector2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_UIVertex_ProvideValue_IServiceProvider_.md&amp;value=---%0Auid%3A%20Mux.Markup.UIVertex.ProvideValue(IServiceProvider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/MarkupExtensions/UIVertex.cs/#L109">View Source</a>
+  </span>
+  <a id="Mux_Markup_UIVertex_ProvideValue_" data-uid="Mux.Markup.UIVertex.ProvideValue*"></a>
+  <h4 id="Mux_Markup_UIVertex_ProvideValue_IServiceProvider_" data-uid="Mux.Markup.UIVertex.ProvideValue(IServiceProvider)">ProvideValue(IServiceProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.UIVertex ProvideValue(IServiceProvider serviceProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IServiceProvider</span></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/UIVertex.html">UnityEngine.UIVertex</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.xaml.imarkupextension-1">Xamarin.Forms.Xaml.IMarkupExtension&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.xaml.imarkupextension">Xamarin.Forms.Xaml.IMarkupExtension</a>
+  </div>
+  <script>
+      window.__webpack_public_path__ = "../playground/playground/";
+      const mux = (function *()
+      {
+          for (const { parentNode, textContent } of document.querySelectorAll("pre > code.lang-xaml"))
+          {
+              const viewNode = document.createElement("canvas");
+              const editorNode = document.createElement("div");
+              const containerNode = document.createElement("div");
+  
+              viewNode.style.width = "100%";
+              editorNode.style.height = "512px";
+              containerNode.appendChild(viewNode);
+              containerNode.appendChild(editorNode);
+              parentNode.parentNode.insertBefore(containerNode, parentNode);
+              parentNode.remove();
+  
+              yield { viewNode, editorNode, value: textContent };
+          }
+      })();
+  </script>
+  <script src="../playground/playground/playground.loader.js"></script>
+  <script async="" src="../playground/playground/main.js"></script>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_UIVertex.md&amp;value=---%0Auid%3A%20Mux.Markup.UIVertex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/MarkupExtensions/UIVertex.cs/#L61" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

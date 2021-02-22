@@ -1,0 +1,1475 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Renderer&lt;T&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Renderer&lt;T&gt;
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <svg aria-label="Toggle navigation" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" role="button" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M4 7a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1zm0 5a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1zm1 4a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H5z" fill="currentColor"></path>
+              </svg>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="navbar">
+              <form class="navbar-form" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Mux.Markup.Renderer`1">
+  
+  
+  <h1 id="Mux_Markup_Renderer_1" data-uid="Mux.Markup.Renderer`1" class="text-break">Class Renderer&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>An <a class="xref" href="Mux.Markup.Component-1.html">Component&lt;T&gt;</a> that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer.html">UnityEngine.Renderer</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject">BindableObject</a></div>
+    <div class="level2"><a class="xref" href="Mux.Markup.Node.html">Node</a></div>
+    <div class="level3"><a class="xref" href="Mux.Markup.Component-1.html">Component</a>&lt;T&gt;</div>
+    <div class="level4"><span class="xref">Renderer&lt;T&gt;</span></div>
+      <div class="level5"><a class="xref" href="Mux.Markup.LineRenderer.html">LineRenderer</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.internals.idynamicresourcehandler">IDynamicResourceHandler</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Mux.Markup.Component-1.html#Mux_Markup_Component_1_BodyProperty">Component&lt;T&gt;.BodyProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="Mux.Markup.Component-1.html#Mux_Markup_Component_1_CreateBindableModifierProperty_System_String_Type_Xamarin_Forms_BindableProperty_CreateDefaultValueDelegate_">Component&lt;T&gt;.CreateBindableModifierProperty(String, Type, BindableProperty.CreateDefaultValueDelegate)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mux.Markup.Component-1.html#Mux_Markup_Component_1_Body">Component&lt;T&gt;.Body</a>
+    </div>
+    <div>
+      <a class="xref" href="Mux.Markup.Component-1.html#Mux_Markup_Component_1_AddToInMainThread_UnityEngine_GameObject_">Component&lt;T&gt;.AddToInMainThread(UnityEngine.GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mux.Markup.Node.html#Mux_Markup_Node_AddTo_UnityEngine_GameObject_">Node.AddTo(UnityEngine.GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mux.Markup.Node.html#Mux_Markup_Node_DestroyMuxInMainThread">Node.DestroyMuxInMainThread()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.bindingcontextproperty">BindableObject.BindingContextProperty</a>
+    </div>
+    <div>
+      <span class="xref">Xamarin.Forms.BindableObject.add_PropertyChanging(Xamarin.Forms.PropertyChangingEventHandler)</span>
+    </div>
+    <div>
+      <span class="xref">Xamarin.Forms.BindableObject.remove_PropertyChanging(Xamarin.Forms.PropertyChangingEventHandler)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.clearvalue#Xamarin_Forms_BindableObject_ClearValue_Xamarin_Forms_BindableProperty_">BindableObject.ClearValue(BindableProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.clearvalue#Xamarin_Forms_BindableObject_ClearValue_Xamarin_Forms_BindablePropertyKey_">BindableObject.ClearValue(BindablePropertyKey)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.getvalue#Xamarin_Forms_BindableObject_GetValue_Xamarin_Forms_BindableProperty_">BindableObject.GetValue(BindableProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.getvalues#Xamarin_Forms_BindableObject_GetValues_Xamarin_Forms_BindableProperty_Xamarin_Forms_BindableProperty_">BindableObject.GetValues(BindableProperty, BindableProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.getvalues#Xamarin_Forms_BindableObject_GetValues_Xamarin_Forms_BindableProperty_Xamarin_Forms_BindableProperty_Xamarin_Forms_BindableProperty_">BindableObject.GetValues(BindableProperty, BindableProperty, BindableProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.isset#Xamarin_Forms_BindableObject_IsSet_Xamarin_Forms_BindableProperty_">BindableObject.IsSet(BindableProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.removebinding#Xamarin_Forms_BindableObject_RemoveBinding_Xamarin_Forms_BindableProperty_">BindableObject.RemoveBinding(BindableProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.setbinding#Xamarin_Forms_BindableObject_SetBinding_Xamarin_Forms_BindableProperty_Xamarin_Forms_BindingBase_">BindableObject.SetBinding(BindableProperty, BindingBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.setinheritedbindingcontext#Xamarin_Forms_BindableObject_SetInheritedBindingContext_Xamarin_Forms_BindableObject_System_Object_">BindableObject.SetInheritedBindingContext(BindableObject, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.applybindings#Xamarin_Forms_BindableObject_ApplyBindings">BindableObject.ApplyBindings()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.onbindingcontextchanged#Xamarin_Forms_BindableObject_OnBindingContextChanged">BindableObject.OnBindingContextChanged()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.onpropertychanged#Xamarin_Forms_BindableObject_OnPropertyChanged_System_String_">BindableObject.OnPropertyChanged(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.onpropertychanging#Xamarin_Forms_BindableObject_OnPropertyChanging_System_String_">BindableObject.OnPropertyChanging(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.unapplybindings#Xamarin_Forms_BindableObject_UnapplyBindings">BindableObject.UnapplyBindings()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.xamarin-forms-internals-idynamicresourcehandler-setdynamicresource#Xamarin_Forms_BindableObject_Xamarin_Forms_Internals_IDynamicResourceHandler_SetDynamicResource_Xamarin_Forms_BindableProperty_System_String_">BindableObject.IDynamicResourceHandler.SetDynamicResource(BindableProperty, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.setvalue#Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_System_Object_">BindableObject.SetValue(BindableProperty, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.setvalue#Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindablePropertyKey_System_Object_">BindableObject.SetValue(BindablePropertyKey, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.setvaluecore#Xamarin_Forms_BindableObject_SetValueCore_Xamarin_Forms_BindableProperty_System_Object_Xamarin_Forms_Internals_SetValueFlags_">BindableObject.SetValueCore(BindableProperty, Object, SetValueFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.coercevalue#Xamarin_Forms_BindableObject_CoerceValue_Xamarin_Forms_BindableProperty_">BindableObject.CoerceValue(BindableProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.coercevalue#Xamarin_Forms_BindableObject_CoerceValue_Xamarin_Forms_BindablePropertyKey_">BindableObject.CoerceValue(BindablePropertyKey)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.dispatcher#Xamarin_Forms_BindableObject_Dispatcher">BindableObject.Dispatcher</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.bindingcontext#Xamarin_Forms_BindableObject_BindingContext">BindableObject.BindingContext</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.propertychanged">BindableObject.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.propertychanging">BindableObject.PropertyChanging</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.bindingcontextchanged">BindableObject.BindingContextChanged</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mux.Markup.html">Mux.Markup</a></h6>
+  <h6><strong>Assembly</strong>: Mux.Markup.dll</h6>
+  <h5 id="Mux_Markup_Renderer_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class Renderer&lt;T&gt; : Component&lt;T&gt;, INotifyPropertyChanged, IDynamicResourceHandler where T : UnityEngine.Renderer</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_AllowOcclusionWhenDynamicProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.AllowOcclusionWhenDynamicProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L37">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_AllowOcclusionWhenDynamicProperty" data-uid="Mux.Markup.Renderer`1.AllowOcclusionWhenDynamicProperty">AllowOcclusionWhenDynamicProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_AllowOcclusionWhenDynamic">AllowOcclusionWhenDynamic</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty AllowOcclusionWhenDynamicProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_EnabledProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.EnabledProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L44">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_EnabledProperty" data-uid="Mux.Markup.Renderer`1.EnabledProperty">EnabledProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_Enabled">Enabled</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty EnabledProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_LightmapIndexProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.LightmapIndexProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L51">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_LightmapIndexProperty" data-uid="Mux.Markup.Renderer`1.LightmapIndexProperty">LightmapIndexProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_LightmapIndex">LightmapIndex</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty LightmapIndexProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_LightmapScaleOffsetProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.LightmapScaleOffsetProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L58">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_LightmapScaleOffsetProperty" data-uid="Mux.Markup.Renderer`1.LightmapScaleOffsetProperty">LightmapScaleOffsetProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_LightmapScaleOffset">LightmapScaleOffset</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty LightmapScaleOffsetProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_LightProbeProxyVolumeOverrideProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.LightProbeProxyVolumeOverrideProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L65">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_LightProbeProxyVolumeOverrideProperty" data-uid="Mux.Markup.Renderer`1.LightProbeProxyVolumeOverrideProperty">LightProbeProxyVolumeOverrideProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_LightProbeProxyVolumeOverride">LightProbeProxyVolumeOverride</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty LightProbeProxyVolumeOverrideProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_LightProbeUsageProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.LightProbeUsageProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L72">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_LightProbeUsageProperty" data-uid="Mux.Markup.Renderer`1.LightProbeUsageProperty">LightProbeUsageProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_LightProbeUsage">LightProbeUsage</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty LightProbeUsageProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_MaterialProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.MaterialProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L79">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_MaterialProperty" data-uid="Mux.Markup.Renderer`1.MaterialProperty">MaterialProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_Material">Material</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty MaterialProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_MotionVectorGenerationModeProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.MotionVectorGenerationModeProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L82">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_MotionVectorGenerationModeProperty" data-uid="Mux.Markup.Renderer`1.MotionVectorGenerationModeProperty">MotionVectorGenerationModeProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_MotionVectorGenerationMode">MotionVectorGenerationMode</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty MotionVectorGenerationModeProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_ProbeAnchorProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.ProbeAnchorProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L89">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_ProbeAnchorProperty" data-uid="Mux.Markup.Renderer`1.ProbeAnchorProperty">ProbeAnchorProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_ProbeAnchor">ProbeAnchor</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty ProbeAnchorProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_RealtimeLightmapIndexProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.RealtimeLightmapIndexProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L96">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_RealtimeLightmapIndexProperty" data-uid="Mux.Markup.Renderer`1.RealtimeLightmapIndexProperty">RealtimeLightmapIndexProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_RealtimeLightmapIndex">RealtimeLightmapIndex</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty RealtimeLightmapIndexProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_RealtimeLightmapScaleOffsetProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.RealtimeLightmapScaleOffsetProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L103">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_RealtimeLightmapScaleOffsetProperty" data-uid="Mux.Markup.Renderer`1.RealtimeLightmapScaleOffsetProperty">RealtimeLightmapScaleOffsetProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_RealtimeLightmapScaleOffset">RealtimeLightmapScaleOffset</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty RealtimeLightmapScaleOffsetProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_ReceiveShadowsProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.ReceiveShadowsProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L110">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_ReceiveShadowsProperty" data-uid="Mux.Markup.Renderer`1.ReceiveShadowsProperty">ReceiveShadowsProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_ReceiveShadows">ReceiveShadows</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty ReceiveShadowsProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_ReflectionProbeUsageProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.ReflectionProbeUsageProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L117">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_ReflectionProbeUsageProperty" data-uid="Mux.Markup.Renderer`1.ReflectionProbeUsageProperty">ReflectionProbeUsageProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_ReflectionProbeUsage">ReflectionProbeUsage</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty ReflectionProbeUsageProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_RendererPriorityProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.RendererPriorityProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L124">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_RendererPriorityProperty" data-uid="Mux.Markup.Renderer`1.RendererPriorityProperty">RendererPriorityProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_RendererPriority">RendererPriority</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty RendererPriorityProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_RenderingLayerMaskProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.RenderingLayerMaskProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L131">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_RenderingLayerMaskProperty" data-uid="Mux.Markup.Renderer`1.RenderingLayerMaskProperty">RenderingLayerMaskProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_RenderingLayerMask">RenderingLayerMask</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty RenderingLayerMaskProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_ShadowCastingModeProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.ShadowCastingModeProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L138">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_ShadowCastingModeProperty" data-uid="Mux.Markup.Renderer`1.ShadowCastingModeProperty">ShadowCastingModeProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_ShadowCastingMode">ShadowCastingMode</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty ShadowCastingModeProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_SharedMaterialProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.SharedMaterialProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L145">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_SharedMaterialProperty" data-uid="Mux.Markup.Renderer`1.SharedMaterialProperty">SharedMaterialProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_SharedMaterial">SharedMaterial</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty SharedMaterialProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_SortingLayerProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.SortingLayerProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L155">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_SortingLayerProperty" data-uid="Mux.Markup.Renderer`1.SortingLayerProperty">SortingLayerProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_SortingLayer">SortingLayer</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty SortingLayerProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_SortingOrderProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.SortingOrderProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L162">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Renderer_1_SortingOrderProperty" data-uid="Mux.Markup.Renderer`1.SortingOrderProperty">SortingOrderProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Renderer-1.html#Mux_Markup_Renderer_1_SortingOrder">SortingOrder</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty SortingOrderProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_AllowOcclusionWhenDynamic.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.AllowOcclusionWhenDynamic%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L187">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_AllowOcclusionWhenDynamic_" data-uid="Mux.Markup.Renderer`1.AllowOcclusionWhenDynamic*"></a>
+  <h4 id="Mux_Markup_Renderer_1_AllowOcclusionWhenDynamic" data-uid="Mux.Markup.Renderer`1.AllowOcclusionWhenDynamic">AllowOcclusionWhenDynamic</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-allowOcclusionWhenDynamic.html">UnityEngine.Renderer.allowOcclusionWhenDynamic</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AllowOcclusionWhenDynamic { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_Enabled.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.Enabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L201">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_Enabled_" data-uid="Mux.Markup.Renderer`1.Enabled*"></a>
+  <h4 id="Mux_Markup_Renderer_1_Enabled" data-uid="Mux.Markup.Renderer`1.Enabled">Enabled</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-enabled.html">UnityEngine.Renderer.enabled</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Enabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_LightmapIndex.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.LightmapIndex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L215">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_LightmapIndex_" data-uid="Mux.Markup.Renderer`1.LightmapIndex*"></a>
+  <h4 id="Mux_Markup_Renderer_1_LightmapIndex" data-uid="Mux.Markup.Renderer`1.LightmapIndex">LightmapIndex</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-lightmapIndex.html">UnityEngine.Renderer.lightmapIndex</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int LightmapIndex { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_LightmapScaleOffset.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.LightmapScaleOffset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L229">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_LightmapScaleOffset_" data-uid="Mux.Markup.Renderer`1.LightmapScaleOffset*"></a>
+  <h4 id="Mux_Markup_Renderer_1_LightmapScaleOffset" data-uid="Mux.Markup.Renderer`1.LightmapScaleOffset">LightmapScaleOffset</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-lightmapScaleOffset.html">UnityEngine.Renderer.lightmapScaleOffset</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Vector4 LightmapScaleOffset { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector4.html">UnityEngine.Vector4</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_LightProbeProxyVolumeOverride.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.LightProbeProxyVolumeOverride%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L243">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_LightProbeProxyVolumeOverride_" data-uid="Mux.Markup.Renderer`1.LightProbeProxyVolumeOverride*"></a>
+  <h4 id="Mux_Markup_Renderer_1_LightProbeProxyVolumeOverride" data-uid="Mux.Markup.Renderer`1.LightProbeProxyVolumeOverride">LightProbeProxyVolumeOverride</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-lightProbeProxyVolumeOverride.html">UnityEngine.Renderer.lightProbeProxyVolumeOverride</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.GameObject LightProbeProxyVolumeOverride { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/Manual/class-GameObject.html">UnityEngine.GameObject</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_LightProbeUsage.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.LightProbeUsage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L257">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_LightProbeUsage_" data-uid="Mux.Markup.Renderer`1.LightProbeUsage*"></a>
+  <h4 id="Mux_Markup_Renderer_1_LightProbeUsage" data-uid="Mux.Markup.Renderer`1.LightProbeUsage">LightProbeUsage</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-lightProbeUsage.html">UnityEngine.Renderer.lightProbeUsage</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Rendering.LightProbeUsage LightProbeUsage { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Rendering.LightProbeUsage.html">UnityEngine.Rendering.LightProbeUsage</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_Material.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.Material%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L184">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_Material_" data-uid="Mux.Markup.Renderer`1.Material*"></a>
+  <h4 id="Mux_Markup_Renderer_1_Material" data-uid="Mux.Markup.Renderer`1.Material">Material</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-material.html">UnityEngine.Renderer.material</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Material Material { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/Manual/class-Material.html">UnityEngine.Material</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_MotionVectorGenerationMode.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.MotionVectorGenerationMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L271">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_MotionVectorGenerationMode_" data-uid="Mux.Markup.Renderer`1.MotionVectorGenerationMode*"></a>
+  <h4 id="Mux_Markup_Renderer_1_MotionVectorGenerationMode" data-uid="Mux.Markup.Renderer`1.MotionVectorGenerationMode">MotionVectorGenerationMode</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-motionVectorGenerationMode.html">UnityEngine.Renderer.motionVectorGenerationMode</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.MotionVectorGenerationMode MotionVectorGenerationMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/MotionVectorGenerationMode.html">UnityEngine.MotionVectorGenerationMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_ProbeAnchor.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.ProbeAnchor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L285">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_ProbeAnchor_" data-uid="Mux.Markup.Renderer`1.ProbeAnchor*"></a>
+  <h4 id="Mux_Markup_Renderer_1_ProbeAnchor" data-uid="Mux.Markup.Renderer`1.ProbeAnchor">ProbeAnchor</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-probeAnchor.html">UnityEngine.Renderer.probeAnchor</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Transform ProbeAnchor { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/Manual/class-Transform.html">UnityEngine.Transform</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_RealtimeLightmapIndex.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.RealtimeLightmapIndex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L299">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_RealtimeLightmapIndex_" data-uid="Mux.Markup.Renderer`1.RealtimeLightmapIndex*"></a>
+  <h4 id="Mux_Markup_Renderer_1_RealtimeLightmapIndex" data-uid="Mux.Markup.Renderer`1.RealtimeLightmapIndex">RealtimeLightmapIndex</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-realtimeLightmapIndex.html">UnityEngine.Renderer.realtimeLightmapIndex</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RealtimeLightmapIndex { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_RealtimeLightmapScaleOffset.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.RealtimeLightmapScaleOffset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L313">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_RealtimeLightmapScaleOffset_" data-uid="Mux.Markup.Renderer`1.RealtimeLightmapScaleOffset*"></a>
+  <h4 id="Mux_Markup_Renderer_1_RealtimeLightmapScaleOffset" data-uid="Mux.Markup.Renderer`1.RealtimeLightmapScaleOffset">RealtimeLightmapScaleOffset</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-realtimeLightmapScaleOffset.html">UnityEngine.Renderer.realtimeLightmapScaleOffset</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Vector4 RealtimeLightmapScaleOffset { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector4.html">UnityEngine.Vector4</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_ReceiveShadows.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.ReceiveShadows%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L327">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_ReceiveShadows_" data-uid="Mux.Markup.Renderer`1.ReceiveShadows*"></a>
+  <h4 id="Mux_Markup_Renderer_1_ReceiveShadows" data-uid="Mux.Markup.Renderer`1.ReceiveShadows">ReceiveShadows</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-receiveShadows.html">UnityEngine.Renderer.receiveShadows</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ReceiveShadows { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_ReflectionProbeUsage.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.ReflectionProbeUsage%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L341">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_ReflectionProbeUsage_" data-uid="Mux.Markup.Renderer`1.ReflectionProbeUsage*"></a>
+  <h4 id="Mux_Markup_Renderer_1_ReflectionProbeUsage" data-uid="Mux.Markup.Renderer`1.ReflectionProbeUsage">ReflectionProbeUsage</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-reflectionProbeUsage.html">UnityEngine.Renderer.reflectionProbeUsage</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Rendering.ReflectionProbeUsage ReflectionProbeUsage { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Rendering.ReflectionProbeUsage.html">UnityEngine.Rendering.ReflectionProbeUsage</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_RendererPriority.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.RendererPriority%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L355">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_RendererPriority_" data-uid="Mux.Markup.Renderer`1.RendererPriority*"></a>
+  <h4 id="Mux_Markup_Renderer_1_RendererPriority" data-uid="Mux.Markup.Renderer`1.RendererPriority">RendererPriority</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-rendererPriority.html">UnityEngine.Renderer.rendererPriority</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int RendererPriority { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_RenderingLayerMask.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.RenderingLayerMask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L369">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_RenderingLayerMask_" data-uid="Mux.Markup.Renderer`1.RenderingLayerMask*"></a>
+  <h4 id="Mux_Markup_Renderer_1_RenderingLayerMask" data-uid="Mux.Markup.Renderer`1.RenderingLayerMask">RenderingLayerMask</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-renderingLayerMask.html">UnityEngine.Renderer.renderingLayerMask</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint RenderingLayerMask { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_ShadowCastingMode.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.ShadowCastingMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L383">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_ShadowCastingMode_" data-uid="Mux.Markup.Renderer`1.ShadowCastingMode*"></a>
+  <h4 id="Mux_Markup_Renderer_1_ShadowCastingMode" data-uid="Mux.Markup.Renderer`1.ShadowCastingMode">ShadowCastingMode</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-shadowCastingMode.html">UnityEngine.Renderer.shadowCastingMode</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Rendering.ShadowCastingMode ShadowCastingMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Rendering.ShadowCastingMode.html">UnityEngine.Rendering.ShadowCastingMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_SharedMaterial.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.SharedMaterial%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L397">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_SharedMaterial_" data-uid="Mux.Markup.Renderer`1.SharedMaterial*"></a>
+  <h4 id="Mux_Markup_Renderer_1_SharedMaterial" data-uid="Mux.Markup.Renderer`1.SharedMaterial">SharedMaterial</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-sharedMaterial.html">UnityEngine.Renderer.sharedMaterial</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Material SharedMaterial { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/Manual/class-Material.html">UnityEngine.Material</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_SortingLayer.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.SortingLayer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L411">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_SortingLayer_" data-uid="Mux.Markup.Renderer`1.SortingLayer*"></a>
+  <h4 id="Mux_Markup_Renderer_1_SortingLayer" data-uid="Mux.Markup.Renderer`1.SortingLayer">SortingLayer</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-sortingLayerID.html">UnityEngine.Renderer.sortingLayerID</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SortingLayer { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_SortingOrder.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.SortingOrder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L425">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_SortingOrder_" data-uid="Mux.Markup.Renderer`1.SortingOrder*"></a>
+  <h4 id="Mux_Markup_Renderer_1_SortingOrder" data-uid="Mux.Markup.Renderer`1.SortingOrder">SortingOrder</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Renderer-sortingOrder.html">UnityEngine.Renderer.sortingOrder</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int SortingOrder { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1_AwakeInMainThread.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601.AwakeInMainThread%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L439">View Source</a>
+  </span>
+  <a id="Mux_Markup_Renderer_1_AwakeInMainThread_" data-uid="Mux.Markup.Renderer`1.AwakeInMainThread*"></a>
+  <h4 id="Mux_Markup_Renderer_1_AwakeInMainThread" data-uid="Mux.Markup.Renderer`1.AwakeInMainThread">AwakeInMainThread()</h4>
+  <div class="markdown level1 summary"><p>A methot that actually wakes the node up in the main thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void AwakeInMainThread()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Mux.Markup.Component&lt;T&gt;.AwakeInMainThread()</span></div>
+  <h5 id="Mux_Markup_Renderer_1_AwakeInMainThread_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The caller must call this method in the main thread after calling
+<a class="xref" href="Mux.Markup.Node.html#Mux_Markup_Node_AddToInMainThread_UnityEngine_GameObject_">AddToInMainThread(UnityEngine.GameObject)</a>.</p>
+</div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">System.ComponentModel.INotifyPropertyChanged</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.internals.idynamicresourcehandler">Xamarin.Forms.Internals.IDynamicResourceHandler</a>
+  </div>
+  <script>
+      window.__webpack_public_path__ = "../playground/playground/";
+      const mux = (function *()
+      {
+          for (const { parentNode, textContent } of document.querySelectorAll("pre > code.lang-xaml"))
+          {
+              const viewNode = document.createElement("canvas");
+              const editorNode = document.createElement("div");
+              const containerNode = document.createElement("div");
+  
+              viewNode.style.width = "100%";
+              editorNode.style.height = "512px";
+              containerNode.appendChild(viewNode);
+              containerNode.appendChild(editorNode);
+              parentNode.parentNode.insertBefore(containerNode, parentNode);
+              parentNode.remove();
+  
+              yield { viewNode, editorNode, value: textContent };
+          }
+      })();
+  </script>
+  <script src="../playground/playground/playground.loader.js"></script>
+  <script async="" src="../playground/playground/main.js"></script>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Renderer_1.md&amp;value=---%0Auid%3A%20Mux.Markup.Renderer%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Renderer/RendererNode.cs/#L22" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

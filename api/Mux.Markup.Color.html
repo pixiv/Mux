@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Color
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Color
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <svg aria-label="Toggle navigation" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" role="button" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M4 7a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1zm0 5a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1zm1 4a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H5z" fill="currentColor"></path>
+              </svg>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="navbar">
+              <form class="navbar-form" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Mux.Markup.Color">
+  
+  
+  <h1 id="Mux_Markup_Color" data-uid="Mux.Markup.Color" class="text-break">Class Color
+  </h1>
+  <div class="markdown level0 summary"><p>A <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.xaml.imarkupextension-1">markup extension</a>
+that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Color.html">UnityEngine.Color</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Color</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.xaml.imarkupextension-1">IMarkupExtension</a>&lt;<a class="xref" href="https://docs.unity3d.com/ScriptReference/Color.html">UnityEngine.Color</a>&gt;</div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.xaml.imarkupextension">IMarkupExtension</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mux.Markup.html">Mux.Markup</a></h6>
+  <h6><strong>Assembly</strong>: Mux.Markup.dll</h6>
+  <h5 id="Mux_Markup_Color_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Color : object, IMarkupExtension&lt;UnityEngine.Color&gt;, IMarkupExtension</code></pre>
+  </div>
+  <h5 id="Mux_Markup_Color_examples"><strong>Examples</strong></h5>
+  <pre><code class="lang-xaml">&lt;m:RectTransform
+    xmlns=&quot;http://xamarin.com/schemas/2014/forms&quot;
+    xmlns:m=&quot;clr-namespace:Mux.Markup;assembly=Mux.Markup&quot;
+    xmlns:mu=&quot;clr-namespace:Mux.Markup;assembly=Mux.Markup.UI&quot;
+    xmlns:x=&quot;http://schemas.microsoft.com/winfx/2009/xaml&quot;>
+    &lt;mu:StandaloneInputModule />
+    &lt;mu:Canvas />
+    &lt;mu:CanvasScaler UiScale=&quot;{mu:ConstantPhysicalSize}&quot; />
+    &lt;mu:GraphicRaycaster />
+    &lt;mu:Image Color=&quot;{m:Color R=0, G=0, B=1}&quot; />
+&lt;/m:RectTransform></code></pre>
+
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Color_A.md&amp;value=---%0Auid%3A%20Mux.Markup.Color.A%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/MarkupExtensions/Color.cs/#L54">View Source</a>
+  </span>
+  <a id="Mux_Markup_Color_A_" data-uid="Mux.Markup.Color.A*"></a>
+  <h4 id="Mux_Markup_Color_A" data-uid="Mux.Markup.Color.A">A</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a href="F:UnityEngine.Color.a">F:UnityEngine.Color.a</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float A { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Color_B.md&amp;value=---%0Auid%3A%20Mux.Markup.Color.B%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/MarkupExtensions/Color.cs/#L51">View Source</a>
+  </span>
+  <a id="Mux_Markup_Color_B_" data-uid="Mux.Markup.Color.B*"></a>
+  <h4 id="Mux_Markup_Color_B" data-uid="Mux.Markup.Color.B">B</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a href="F:UnityEngine.Color.b">F:UnityEngine.Color.b</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float B { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Color_G.md&amp;value=---%0Auid%3A%20Mux.Markup.Color.G%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/MarkupExtensions/Color.cs/#L48">View Source</a>
+  </span>
+  <a id="Mux_Markup_Color_G_" data-uid="Mux.Markup.Color.G*"></a>
+  <h4 id="Mux_Markup_Color_G" data-uid="Mux.Markup.Color.G">G</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Color-g.html">UnityEngine.Color.g</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float G { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Color_R.md&amp;value=---%0Auid%3A%20Mux.Markup.Color.R%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/MarkupExtensions/Color.cs/#L45">View Source</a>
+  </span>
+  <a id="Mux_Markup_Color_R_" data-uid="Mux.Markup.Color.R*"></a>
+  <h4 id="Mux_Markup_Color_R" data-uid="Mux.Markup.Color.R">R</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Color-r.html">UnityEngine.Color.r</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float R { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Color_ProvideValue_IServiceProvider_.md&amp;value=---%0Auid%3A%20Mux.Markup.Color.ProvideValue(IServiceProvider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/MarkupExtensions/Color.cs/#L61">View Source</a>
+  </span>
+  <a id="Mux_Markup_Color_ProvideValue_" data-uid="Mux.Markup.Color.ProvideValue*"></a>
+  <h4 id="Mux_Markup_Color_ProvideValue_IServiceProvider_" data-uid="Mux.Markup.Color.ProvideValue(IServiceProvider)">ProvideValue(IServiceProvider)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Color ProvideValue(IServiceProvider serviceProvider)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IServiceProvider</span></td>
+        <td><span class="parametername">serviceProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Color.html">UnityEngine.Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.xaml.imarkupextension-1">Xamarin.Forms.Xaml.IMarkupExtension&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.xaml.imarkupextension">Xamarin.Forms.Xaml.IMarkupExtension</a>
+  </div>
+  <script>
+      window.__webpack_public_path__ = "../playground/playground/";
+      const mux = (function *()
+      {
+          for (const { parentNode, textContent } of document.querySelectorAll("pre > code.lang-xaml"))
+          {
+              const viewNode = document.createElement("canvas");
+              const editorNode = document.createElement("div");
+              const containerNode = document.createElement("div");
+  
+              viewNode.style.width = "100%";
+              editorNode.style.height = "512px";
+              containerNode.appendChild(viewNode);
+              containerNode.appendChild(editorNode);
+              parentNode.parentNode.insertBefore(containerNode, parentNode);
+              parentNode.remove();
+  
+              yield { viewNode, editorNode, value: textContent };
+          }
+      })();
+  </script>
+  <script src="../playground/playground/playground.loader.js"></script>
+  <script async="" src="../playground/playground/main.js"></script>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Color.md&amp;value=---%0Auid%3A%20Mux.Markup.Color%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/MarkupExtensions/Color.cs/#L41" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

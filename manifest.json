@@ -1,0 +1,1484 @@
+{
+  "homepages": [],
+  "source_base_path": "/builds/14a8068c/0/pixiv/Mux.CI/Mux/.build/doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/gallery.md",
+      "output": {
+        ".html": {
+          "relative_path": "gallery.html",
+          "hash": "XU78oojtUkOiiVfpp0150Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "uNhzOHhdSxzo9rQOScTsVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/playground.md",
+      "output": {
+        ".html": {
+          "relative_path": "playground.html",
+          "hash": "Hpz8lnbPLLRLdVBomgjcbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/tests/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "tests/index.html",
+          "hash": "xF9c39DPWkrd9Yfo90w0ZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Editor.Postprocessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Editor.Postprocessor.html",
+          "hash": "qyKjLcGqW0/xGFm4P0fM2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Editor.html",
+          "hash": "Tv9RpJSvj6UbFlsQzBMwuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Forms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Forms.html",
+          "hash": "rLo/H6FCnPGjocWOk3r6uA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.AnimationTriggers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.AnimationTriggers.html",
+          "hash": "vj5wmdbA2ybLYixi4qG/aA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Animator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Animator.html",
+          "hash": "QR/HAQJIQr0iURCMV/+RkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.AspectRatioFitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.AspectRatioFitter.html",
+          "hash": "pn9iA7ETfd5z/c7hpCB3yQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.BaseResourceProvider-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.BaseResourceProvider-1.html",
+          "hash": "r6TMfWQkwyeAhc+zWYo+LA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.BaseResourceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.BaseResourceProvider.html",
+          "hash": "0P+zQgSsFdYIeQ3vKgL11g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Behaviour-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Behaviour-1.html",
+          "hash": "kFH4Xg62AXsbJbvQa8RSkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Button.html",
+          "hash": "cyY0UN4VqhHkdriveJvXZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Camera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Camera.html",
+          "hash": "mpdHA90e1d4/f+YBU2kbkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Canvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Canvas.html",
+          "hash": "SHpGVN4o3xEfJzpArGRaCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.CanvasGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.CanvasGroup.html",
+          "hash": "FytVa0Ytkbku/f9Q9lMnhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.CanvasScaler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.CanvasScaler.html",
+          "hash": "7sGFB0qlMAyTL0u7A0SGzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Clamped.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Clamped.html",
+          "hash": "sQR2yVICb68BdPLYG3QwRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Color.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Color.html",
+          "hash": "16OD3vVhUjfsVh+vxtCy1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Color32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Color32.html",
+          "hash": "z5SiRXEtWrGq949remmgaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.ColorBlock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.ColorBlock.html",
+          "hash": "0cvudFa9OfwOd2zsys4Sog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Component-1.Modifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Component-1.Modifier.html",
+          "hash": "wvD8uvWqNW6dsu3wIR2+Gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Component-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Component-1.html",
+          "hash": "WlSlxytQqCyaDqlGYkkXVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.ConstantPhysicalSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.ConstantPhysicalSize.html",
+          "hash": "GLtx+HyU6kXcHf6Vng9qcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.ConstantPixelSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.ConstantPixelSize.html",
+          "hash": "JSKGqrqCPSIRyXK7c6VJEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.ContentSizeFitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.ContentSizeFitter.html",
+          "hash": "+91OZc6byqycLgN+o4F6JA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Dropdown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Dropdown.html",
+          "hash": "D9pEBxe8CmmuPW0YcB2Dew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.DropdownOptionData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.DropdownOptionData.html",
+          "hash": "/PjlJbZ7JUucY5AHFOOoXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Elastic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Elastic.html",
+          "hash": "bu7NhLh5jBnfDT4ViB95Gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.EventSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.EventSystem.html",
+          "hash": "ELZRRy1wqzitGgOtVmyqYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.EventTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.EventTrigger.html",
+          "hash": "PJ8NcIJgavR0aiSKnL50fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.EventTriggerEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.EventTriggerEntry.html",
+          "hash": "YoB+0gft+65SmCe2+pp9eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Extras.MuxUIMesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Extras.MuxUIMesh.html",
+          "hash": "rZ/JCoDkma11yd7Ynir1JQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Extras.Triangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Extras.Triangle.html",
+          "hash": "zKr32mZyPnN2S9/JNzeJdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Extras.UIMesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Extras.UIMesh.html",
+          "hash": "FI9YvqyT36C59Uafqm1wlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Extras.UIMeshItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Extras.UIMeshItem.html",
+          "hash": "7LuDV7F4un9NefPnG9p3pQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Extras.UIMeshItemWithCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Extras.UIMeshItemWithCollection.html",
+          "hash": "hN4AdS2dlm/yXxcOHis3tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Extras.UIVertexQuad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Extras.UIVertexQuad.html",
+          "hash": "LWZQPELr7bTzNMEqEnx8bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Extras.UIVertexStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Extras.UIVertexStream.html",
+          "hash": "athwkn1vfZ25IoIRKwGvqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Extras.UIVertexTriangleStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Extras.UIVertexTriangleStream.html",
+          "hash": "Ow9DslA4fgbhKM10+w4C+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Extras.Vert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Extras.Vert.html",
+          "hash": "A7Oa0ziZZ7ZCAXXDwLmYXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Extras.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Extras.html",
+          "hash": "WUolH1vBgATGu9yhmpQB+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.FixedColumnCount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.FixedColumnCount.html",
+          "hash": "H81iyflJwXuP4poeedJC3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.FixedCount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.FixedCount.html",
+          "hash": "KurTbRKKEIu6qdvPfBY2rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.FixedRowCount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.FixedRowCount.html",
+          "hash": "pFPcvNF6OXbRAFSRRcNghQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Flexible.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Flexible.html",
+          "hash": "N5gO41FttEJHQvBBveFbyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Gradient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Gradient.html",
+          "hash": "Fg1dR8F5TRol6Juw659tjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.GradientAlphaKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.GradientAlphaKey.html",
+          "hash": "GPaZdlrnFO6q19xBN+fNow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.GradientColorKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.GradientColorKey.html",
+          "hash": "3xl+fsXB/Q7Ped4I4gbOHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Graphic-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Graphic-1.html",
+          "hash": "eAwdmKEswxOj9mtwk/m5LQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.GraphicRaycaster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.GraphicRaycaster.html",
+          "hash": "kJhVHZ8h4eUZl3I3MvYzIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.GridLayoutGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.GridLayoutGroup.html",
+          "hash": "wK++O0BLRe5yFzaDucosIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.HorizontalLayoutGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.HorizontalLayoutGroup.html",
+          "hash": "sA3738Nyw6hhH6d6NKY+gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.HorizontalOrVerticalLayoutGroup-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.HorizontalOrVerticalLayoutGroup-1.html",
+          "hash": "Kk1u3BQtKeXPY9yRzequFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.IReloadable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.IReloadable.html",
+          "hash": "VNE50ftYszQNVYLS8fuCkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.ITransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.ITransform.html",
+          "hash": "KvG+EnIhbIWqoYNhRv47yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Image.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Image.html",
+          "hash": "L/IpwVLHLxUNDQSBS1G0sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Inertia.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Inertia.html",
+          "hash": "TjLe4nVCmng/MyfVMKi4Iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.InputField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.InputField.html",
+          "hash": "3SJq0wk6CAZfIU+StL3B8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.LayerTypeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.LayerTypeConverter.html",
+          "hash": "iETrMPcttEQbw6tsmXU0sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.LayoutElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.LayoutElement.html",
+          "hash": "bh7Ks+XBTUq33GlXNcTaiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.LayoutGroup-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.LayoutGroup-1.html",
+          "hash": "N/yKdZCQLQMXpmA06LNxjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.LineRenderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.LineRenderer.html",
+          "hash": "Wybspg2JFwxxlaRKS4tB8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Mask.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Mask.html",
+          "hash": "HBJGnrnZGRtrqT5cKtn5bA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Node.html",
+          "hash": "ocY1cX6kbczK9tEFzivvBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Outline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Outline.html",
+          "hash": "Lo3CKzlerkek7A/uelp8vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.PositionAsUV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.PositionAsUV1.html",
+          "hash": "sEmCQ8GG/zGK2D65j0+QxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.RawImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.RawImage.html",
+          "hash": "hBqjjYoaPa01En4etbjk8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.RectMask2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.RectMask2D.html",
+          "hash": "LB9Wn/gydO6hPU87PYZw5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.RectTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.RectTransform.html",
+          "hash": "auHreefcSF647MWyYD+YXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.RectTransformLayout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.RectTransformLayout.html",
+          "hash": "oVhnd3lNKPTK87uGj4J44w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Render.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Render.html",
+          "hash": "xz2jN4ykUTCBaqU9t9C/Uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Renderer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Renderer-1.html",
+          "hash": "EUbrrn35bR417YOnoqXkVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.ResourceProvider-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.ResourceProvider-1.html",
+          "hash": "HssUpWZokqrJdbn1dPLpEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.ResourceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.ResourceProvider.html",
+          "hash": "wOn58K/QOQIKDeytdUcyRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.ResourceRequest-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.ResourceRequest-1.html",
+          "hash": "NN8eLXevJgi1dlLR5hb92g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.ScaleWithScreenSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.ScaleWithScreenSize.html",
+          "hash": "wkLxr7XVS/DP2+O3gJAy7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.ScreenSpaceCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.ScreenSpaceCamera.html",
+          "hash": "NFHVkOmhbxtq9BrptDTK4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.ScreenSpaceOverlay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.ScreenSpaceOverlay.html",
+          "hash": "JZfrHJ6QdPCauqD/2WWfOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.ScrollRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.ScrollRect.html",
+          "hash": "H25vAEJ4NbVX2tQ5a0IGMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Scrollbar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Scrollbar.html",
+          "hash": "2QQMu/E+30osIaPADHaijg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Selectable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Selectable-1.html",
+          "hash": "zVeV/I/1xAD7gVi8ZWUvDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Selectable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Selectable.html",
+          "hash": "G/c+VcmzsDefT/9d1JDsQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Shadow-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Shadow-1.html",
+          "hash": "LVTfyU5FKJSn+aDhhNW2Pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Shadow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Shadow.html",
+          "hash": "Q7uFTXocMWVVPaAIgR1e8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Sized.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Sized.html",
+          "hash": "CbETp/AEt37VP/eXi8AMNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Slider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Slider.html",
+          "hash": "j+3EpWydHZ3Ov4fU/h3a5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.SpriteState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.SpriteState.html",
+          "hash": "68XP2FmriXvJavc//vBLaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.StandaloneInputModule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.StandaloneInputModule.html",
+          "hash": "QC/ikwIsXxeMUw+Vx4b4yQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Stretch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Stretch.html",
+          "hash": "+yzzESl9XcAba4hyOBM0Og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.TemplatableCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.TemplatableCollection-1.html",
+          "hash": "UF94Smuozsz3nt89Ik8+dA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.TemplatableCollectionList-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.TemplatableCollectionList-1.html",
+          "hash": "zMDK8N3+G9GZuMlivzMf+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.TemplatedItem-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.TemplatedItem-1.html",
+          "hash": "5F6lvdB4jsaSRr/Ah/bf6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Text.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Text.html",
+          "hash": "FpuZ9/ZWDwLSa6+JGht3fQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Toggle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Toggle.html",
+          "hash": "E3ZaET0J5VrXpoddHCj4BQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.ToggleGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.ToggleGroup.html",
+          "hash": "mEkabTZSYb9+9QbMrjrwAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Transform-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Transform-1.html",
+          "hash": "bYuP9aRbAo2haW9h5QoKaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Transform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Transform.html",
+          "hash": "Cl/ublnFDERU6W0qOdbYFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Transforms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Transforms.html",
+          "hash": "ureXaa/VSZYwP3Tf+sD9VQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.UIVertex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.UIVertex.html",
+          "hash": "c20EfV5H9kVaMHHjV+eLBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Unrestricted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Unrestricted.html",
+          "hash": "hcwnZusUkuti/5cXLqt7Pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Vector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Vector2.html",
+          "hash": "lYloRCh1EvyGpQFmwno40w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Vector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Vector3.html",
+          "hash": "pS6SIeDnAS3EaWJoggZ2wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Vector3Int.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Vector3Int.html",
+          "hash": "BWKyhIR/leUVyObf3Tv9jA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.Vector4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.Vector4.html",
+          "hash": "enguLGX0bFf3ZRe7/NbWgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.VerticalLayoutGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.VerticalLayoutGroup.html",
+          "hash": "zlOtgiTccrN+smlo/PWkKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.WorldSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.WorldSpace.html",
+          "hash": "EDsoRRRVhisELzHeG6gmuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.Markup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.Markup.html",
+          "hash": "kWzRwxcP5BoAEbhn1hXZpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.TraceListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.TraceListener.html",
+          "hash": "bFDHcv4NLZRMG2qnrWkS2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.XamlImportAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.XamlImportAttribute.html",
+          "hash": "18Q49js3t4gsQtrvmtE+IA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/Mux.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Mux.html",
+          "hash": "znFCgVoOYA+O1qq+UP4ncA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "7TMOlg2Yj2yfAy4kcevbNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/licenses.md",
+      "output": {
+        ".html": {
+          "relative_path": "licenses.html",
+          "hash": "V1ZnlY6zEd8bRIMVAhRdYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/tests/editmode/results.md",
+      "output": {
+        ".html": {
+          "relative_path": "tests/editmode/results.html",
+          "hash": "waOknMe+T0efEaQF1Gm7ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "obj/tests/playmode/results.md",
+      "output": {
+        ".html": {
+          "relative_path": "tests/playmode/results.html",
+          "hash": "n0hh7c3b1qa09++4uWysqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "PuRKYTqxsUJTGw5bK7881w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 7,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 108,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

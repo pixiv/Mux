@@ -1,0 +1,2582 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Camera
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Camera
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <svg aria-label="Toggle navigation" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" role="button" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M4 7a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1zm0 5a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1zm1 4a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H5z" fill="currentColor"></path>
+              </svg>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="navbar">
+              <form class="navbar-form" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Mux.Markup.Camera">
+  
+  
+  <h1 id="Mux_Markup_Camera" data-uid="Mux.Markup.Camera" class="text-break">Class Camera
+  </h1>
+  <div class="markdown level0 summary"><p>A <a class="xref" href="Mux.Markup.Behaviour-1.html">Behaviour&lt;T&gt;</a> that represents <see cref="!:UnityEngine.Camera"></see></p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject">BindableObject</a></div>
+    <div class="level2"><a class="xref" href="Mux.Markup.Node.html">Node</a></div>
+    <div class="level3"><a class="xref" href="Mux.Markup.Component-1.html">Component</a>&lt;<a class="xref" href="https://docs.unity3d.com/Manual/class-Camera.html">UnityEngine.Camera</a>&gt;</div>
+    <div class="level4"><a class="xref" href="Mux.Markup.Behaviour-1.html">Behaviour</a>&lt;<a class="xref" href="https://docs.unity3d.com/Manual/class-Camera.html">UnityEngine.Camera</a>&gt;</div>
+    <div class="level5"><span class="xref">Camera</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">INotifyPropertyChanged</a></div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.internals.idynamicresourcehandler">IDynamicResourceHandler</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Mux.Markup.Behaviour-1.html#Mux_Markup_Behaviour_1_EnabledProperty">Behaviour&lt;UnityEngine.Camera&gt;.EnabledProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="Mux.Markup.Behaviour-1.html#Mux_Markup_Behaviour_1_Enabled">Behaviour&lt;UnityEngine.Camera&gt;.Enabled</a>
+    </div>
+    <div>
+      <a class="xref" href="Mux.Markup.Component-1.html#Mux_Markup_Component_1_BodyProperty">Component&lt;UnityEngine.Camera&gt;.BodyProperty</a>
+    </div>
+    <div>
+      <a class="xref" href="Mux.Markup.Component-1.html#Mux_Markup_Component_1_CreateBindableModifierProperty_System_String_Type_Xamarin_Forms_BindableProperty_CreateDefaultValueDelegate_">Component&lt;UnityEngine.Camera&gt;.CreateBindableModifierProperty(String, Type, BindableProperty.CreateDefaultValueDelegate)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mux.Markup.Component-1.html#Mux_Markup_Component_1_Body">Component&lt;UnityEngine.Camera&gt;.Body</a>
+    </div>
+    <div>
+      <a class="xref" href="Mux.Markup.Component-1.html#Mux_Markup_Component_1_AddToInMainThread_UnityEngine_GameObject_">Component&lt;UnityEngine.Camera&gt;.AddToInMainThread(UnityEngine.GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mux.Markup.Node.html#Mux_Markup_Node_AddTo_UnityEngine_GameObject_">Node.AddTo(UnityEngine.GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mux.Markup.Node.html#Mux_Markup_Node_DestroyMuxInMainThread">Node.DestroyMuxInMainThread()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.bindingcontextproperty">BindableObject.BindingContextProperty</a>
+    </div>
+    <div>
+      <span class="xref">Xamarin.Forms.BindableObject.add_PropertyChanging(Xamarin.Forms.PropertyChangingEventHandler)</span>
+    </div>
+    <div>
+      <span class="xref">Xamarin.Forms.BindableObject.remove_PropertyChanging(Xamarin.Forms.PropertyChangingEventHandler)</span>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.clearvalue#Xamarin_Forms_BindableObject_ClearValue_Xamarin_Forms_BindableProperty_">BindableObject.ClearValue(BindableProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.clearvalue#Xamarin_Forms_BindableObject_ClearValue_Xamarin_Forms_BindablePropertyKey_">BindableObject.ClearValue(BindablePropertyKey)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.getvalue#Xamarin_Forms_BindableObject_GetValue_Xamarin_Forms_BindableProperty_">BindableObject.GetValue(BindableProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.getvalues#Xamarin_Forms_BindableObject_GetValues_Xamarin_Forms_BindableProperty_Xamarin_Forms_BindableProperty_">BindableObject.GetValues(BindableProperty, BindableProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.getvalues#Xamarin_Forms_BindableObject_GetValues_Xamarin_Forms_BindableProperty_Xamarin_Forms_BindableProperty_Xamarin_Forms_BindableProperty_">BindableObject.GetValues(BindableProperty, BindableProperty, BindableProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.isset#Xamarin_Forms_BindableObject_IsSet_Xamarin_Forms_BindableProperty_">BindableObject.IsSet(BindableProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.removebinding#Xamarin_Forms_BindableObject_RemoveBinding_Xamarin_Forms_BindableProperty_">BindableObject.RemoveBinding(BindableProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.setbinding#Xamarin_Forms_BindableObject_SetBinding_Xamarin_Forms_BindableProperty_Xamarin_Forms_BindingBase_">BindableObject.SetBinding(BindableProperty, BindingBase)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.setinheritedbindingcontext#Xamarin_Forms_BindableObject_SetInheritedBindingContext_Xamarin_Forms_BindableObject_System_Object_">BindableObject.SetInheritedBindingContext(BindableObject, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.applybindings#Xamarin_Forms_BindableObject_ApplyBindings">BindableObject.ApplyBindings()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.onbindingcontextchanged#Xamarin_Forms_BindableObject_OnBindingContextChanged">BindableObject.OnBindingContextChanged()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.onpropertychanged#Xamarin_Forms_BindableObject_OnPropertyChanged_System_String_">BindableObject.OnPropertyChanged(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.onpropertychanging#Xamarin_Forms_BindableObject_OnPropertyChanging_System_String_">BindableObject.OnPropertyChanging(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.unapplybindings#Xamarin_Forms_BindableObject_UnapplyBindings">BindableObject.UnapplyBindings()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.xamarin-forms-internals-idynamicresourcehandler-setdynamicresource#Xamarin_Forms_BindableObject_Xamarin_Forms_Internals_IDynamicResourceHandler_SetDynamicResource_Xamarin_Forms_BindableProperty_System_String_">BindableObject.IDynamicResourceHandler.SetDynamicResource(BindableProperty, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.setvalue#Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_System_Object_">BindableObject.SetValue(BindableProperty, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.setvalue#Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindablePropertyKey_System_Object_">BindableObject.SetValue(BindablePropertyKey, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.setvaluecore#Xamarin_Forms_BindableObject_SetValueCore_Xamarin_Forms_BindableProperty_System_Object_Xamarin_Forms_Internals_SetValueFlags_">BindableObject.SetValueCore(BindableProperty, Object, SetValueFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.coercevalue#Xamarin_Forms_BindableObject_CoerceValue_Xamarin_Forms_BindableProperty_">BindableObject.CoerceValue(BindableProperty)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.coercevalue#Xamarin_Forms_BindableObject_CoerceValue_Xamarin_Forms_BindablePropertyKey_">BindableObject.CoerceValue(BindablePropertyKey)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.dispatcher#Xamarin_Forms_BindableObject_Dispatcher">BindableObject.Dispatcher</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.bindingcontext#Xamarin_Forms_BindableObject_BindingContext">BindableObject.BindingContext</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.propertychanged">BindableObject.PropertyChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.propertychanging">BindableObject.PropertyChanging</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.bindingcontextchanged">BindableObject.BindingContextChanged</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mux.Markup.html">Mux.Markup</a></h6>
+  <h6><strong>Assembly</strong>: Mux.Markup.dll</h6>
+  <h5 id="Mux_Markup_Camera_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Camera : Behaviour&lt;UnityEngine.Camera&gt;, INotifyPropertyChanged, IDynamicResourceHandler</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_AllowDynamicResolutionProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.AllowDynamicResolutionProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L23">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_AllowDynamicResolutionProperty" data-uid="Mux.Markup.Camera.AllowDynamicResolutionProperty">AllowDynamicResolutionProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_AllowDynamicResolution">AllowDynamicResolution</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty AllowDynamicResolutionProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_AllowHDRProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.AllowHDRProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L29">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_AllowHDRProperty" data-uid="Mux.Markup.Camera.AllowHDRProperty">AllowHDRProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_AllowHDR">AllowHDR</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty AllowHDRProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_AllowMSAAProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.AllowMSAAProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L36">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_AllowMSAAProperty" data-uid="Mux.Markup.Camera.AllowMSAAProperty">AllowMSAAProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_AllowMSAA">AllowMSAA</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty AllowMSAAProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_BackgroundColorProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.BackgroundColorProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L43">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_BackgroundColorProperty" data-uid="Mux.Markup.Camera.BackgroundColorProperty">BackgroundColorProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_BackgroundColor">BackgroundColor</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty BackgroundColorProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_CameraTypeProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.CameraTypeProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L50">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_CameraTypeProperty" data-uid="Mux.Markup.Camera.CameraTypeProperty">CameraTypeProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_CameraType">CameraType</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty CameraTypeProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_ClearFlagsProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.ClearFlagsProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L57">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_ClearFlagsProperty" data-uid="Mux.Markup.Camera.ClearFlagsProperty">ClearFlagsProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_ClearFlags">ClearFlags</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty ClearFlagsProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_ClearStencilAfterLightingPassProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.ClearStencilAfterLightingPassProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L64">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_ClearStencilAfterLightingPassProperty" data-uid="Mux.Markup.Camera.ClearStencilAfterLightingPassProperty">ClearStencilAfterLightingPassProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_ClearStencilAfterLightingPass">ClearStencilAfterLightingPass</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty ClearStencilAfterLightingPassProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_CullingMaskProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.CullingMaskProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L70">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_CullingMaskProperty" data-uid="Mux.Markup.Camera.CullingMaskProperty">CullingMaskProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_CullingMask">CullingMask</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty CullingMaskProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_DepthProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.DepthProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L77">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_DepthProperty" data-uid="Mux.Markup.Camera.DepthProperty">DepthProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_Depth">Depth</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty DepthProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_DepthTextureModeProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.DepthTextureModeProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L83">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_DepthTextureModeProperty" data-uid="Mux.Markup.Camera.DepthTextureModeProperty">DepthTextureModeProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_DepthTextureMode">DepthTextureMode</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty DepthTextureModeProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_EventMaskProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.EventMaskProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L90">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_EventMaskProperty" data-uid="Mux.Markup.Camera.EventMaskProperty">EventMaskProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_EventMask">EventMask</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty EventMaskProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_FarClipPlaneProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.FarClipPlaneProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L97">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_FarClipPlaneProperty" data-uid="Mux.Markup.Camera.FarClipPlaneProperty">FarClipPlaneProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_FarClipPlane">FarClipPlane</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty FarClipPlaneProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_FieldOfViewProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.FieldOfViewProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L104">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_FieldOfViewProperty" data-uid="Mux.Markup.Camera.FieldOfViewProperty">FieldOfViewProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_FieldOfView">FieldOfView</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty FieldOfViewProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_FocalLengthProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.FocalLengthProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L111">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_FocalLengthProperty" data-uid="Mux.Markup.Camera.FocalLengthProperty">FocalLengthProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_FocalLength">FocalLength</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty FocalLengthProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_ForceIntoRenderTextureProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.ForceIntoRenderTextureProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L118">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_ForceIntoRenderTextureProperty" data-uid="Mux.Markup.Camera.ForceIntoRenderTextureProperty">ForceIntoRenderTextureProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_ForceIntoRenderTexture">ForceIntoRenderTexture</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty ForceIntoRenderTextureProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_GateFitProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.GateFitProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L124">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_GateFitProperty" data-uid="Mux.Markup.Camera.GateFitProperty">GateFitProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_GateFit">GateFit</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty GateFitProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_LayerCullDistancesProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.LayerCullDistancesProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L131">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_LayerCullDistancesProperty" data-uid="Mux.Markup.Camera.LayerCullDistancesProperty">LayerCullDistancesProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_LayerCullDistances">LayerCullDistances</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty LayerCullDistancesProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_LayerCullSphericalProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.LayerCullSphericalProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L138">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_LayerCullSphericalProperty" data-uid="Mux.Markup.Camera.LayerCullSphericalProperty">LayerCullSphericalProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_LayerCullSpherical">LayerCullSpherical</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty LayerCullSphericalProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_LensShiftProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.LensShiftProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L144">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_LensShiftProperty" data-uid="Mux.Markup.Camera.LensShiftProperty">LensShiftProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_LensShift">LensShift</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty LensShiftProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_NearClipPlaneProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.NearClipPlaneProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L150">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_NearClipPlaneProperty" data-uid="Mux.Markup.Camera.NearClipPlaneProperty">NearClipPlaneProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_NearClipPlane">NearClipPlane</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty NearClipPlaneProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_OpaqueSortModeProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.OpaqueSortModeProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L157">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_OpaqueSortModeProperty" data-uid="Mux.Markup.Camera.OpaqueSortModeProperty">OpaqueSortModeProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_OpaqueSortMode">OpaqueSortMode</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty OpaqueSortModeProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_OrthographicProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.OrthographicProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L164">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_OrthographicProperty" data-uid="Mux.Markup.Camera.OrthographicProperty">OrthographicProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_Orthographic">Orthographic</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty OrthographicProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_OrthographicSizeProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.OrthographicSizeProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L170">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_OrthographicSizeProperty" data-uid="Mux.Markup.Camera.OrthographicSizeProperty">OrthographicSizeProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_OrthographicSize">OrthographicSize</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty OrthographicSizeProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_RectProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.RectProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L177">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_RectProperty" data-uid="Mux.Markup.Camera.RectProperty">RectProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_Rect">Rect</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty RectProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_RenderingPathProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.RenderingPathProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L184">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_RenderingPathProperty" data-uid="Mux.Markup.Camera.RenderingPathProperty">RenderingPathProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_RenderingPath">RenderingPath</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty RenderingPathProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_SceneProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.SceneProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L191">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_SceneProperty" data-uid="Mux.Markup.Camera.SceneProperty">SceneProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_Scene">Scene</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty SceneProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_SensorSizeProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.SensorSizeProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L197">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_SensorSizeProperty" data-uid="Mux.Markup.Camera.SensorSizeProperty">SensorSizeProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_SensorSize">SensorSize</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty SensorSizeProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_StereoConvergenceProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.StereoConvergenceProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L204">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_StereoConvergenceProperty" data-uid="Mux.Markup.Camera.StereoConvergenceProperty">StereoConvergenceProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_StereoConvergence">StereoConvergence</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty StereoConvergenceProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_StereoSeparationProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.StereoSeparationProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L211">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_StereoSeparationProperty" data-uid="Mux.Markup.Camera.StereoSeparationProperty">StereoSeparationProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_StereoSeparation">StereoSeparation</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty StereoSeparationProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_StereoTargetEyeProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.StereoTargetEyeProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L218">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_StereoTargetEyeProperty" data-uid="Mux.Markup.Camera.StereoTargetEyeProperty">StereoTargetEyeProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_StereoTargetEye">StereoTargetEye</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty StereoTargetEyeProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_TargetDisplayProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.TargetDisplayProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L225">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_TargetDisplayProperty" data-uid="Mux.Markup.Camera.TargetDisplayProperty">TargetDisplayProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_TargetDisplay">TargetDisplay</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty TargetDisplayProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_TargetTextureProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.TargetTextureProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L231">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_TargetTextureProperty" data-uid="Mux.Markup.Camera.TargetTextureProperty">TargetTextureProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_TargetTexture">TargetTexture</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty TargetTextureProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_TransparencySortAxisProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.TransparencySortAxisProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L237">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_TransparencySortAxisProperty" data-uid="Mux.Markup.Camera.TransparencySortAxisProperty">TransparencySortAxisProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_TransparencySortAxis">TransparencySortAxis</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty TransparencySortAxisProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_TransparencySortModeProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.TransparencySortModeProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L244">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_TransparencySortModeProperty" data-uid="Mux.Markup.Camera.TransparencySortModeProperty">TransparencySortModeProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_TransparencySortMode">TransparencySortMode</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty TransparencySortModeProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_UseJitteredProjectionMatrixForTransparentRenderingProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.UseJitteredProjectionMatrixForTransparentRenderingProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L251">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_UseJitteredProjectionMatrixForTransparentRenderingProperty" data-uid="Mux.Markup.Camera.UseJitteredProjectionMatrixForTransparentRenderingProperty">UseJitteredProjectionMatrixForTransparentRenderingProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_UseJitteredProjectionMatrixForTransparentRendering">UseJitteredProjectionMatrixForTransparentRendering</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty UseJitteredProjectionMatrixForTransparentRenderingProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_UseOcclusionCullingProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.UseOcclusionCullingProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L258">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_UseOcclusionCullingProperty" data-uid="Mux.Markup.Camera.UseOcclusionCullingProperty">UseOcclusionCullingProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_UseOcclusionCulling">UseOcclusionCulling</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty UseOcclusionCullingProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_UsePhysicalPropertiesProperty.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.UsePhysicalPropertiesProperty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L265">View Source</a>
+  </span>
+  <h4 id="Mux_Markup_Camera_UsePhysicalPropertiesProperty" data-uid="Mux.Markup.Camera.UsePhysicalPropertiesProperty">UsePhysicalPropertiesProperty</h4>
+  <div class="markdown level1 summary"><p>Backing store for the <a class="xref" href="Mux.Markup.Camera.html#Mux_Markup_Camera_UsePhysicalProperties">UsePhysicalProperties</a> property.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BindableProperty UsePhysicalPropertiesProperty</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableproperty">BindableProperty</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_AllowDynamicResolution.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.AllowDynamicResolution%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L271">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_AllowDynamicResolution_" data-uid="Mux.Markup.Camera.AllowDynamicResolution*"></a>
+  <h4 id="Mux_Markup_Camera_AllowDynamicResolution" data-uid="Mux.Markup.Camera.AllowDynamicResolution">AllowDynamicResolution</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-allowDynamicResolution.html">UnityEngine.Camera.allowDynamicResolution</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AllowDynamicResolution { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_AllowHDR.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.AllowHDR%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L285">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_AllowHDR_" data-uid="Mux.Markup.Camera.AllowHDR*"></a>
+  <h4 id="Mux_Markup_Camera_AllowHDR" data-uid="Mux.Markup.Camera.AllowHDR">AllowHDR</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-allowHDR.html">UnityEngine.Camera.allowHDR</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AllowHDR { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_AllowMSAA.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.AllowMSAA%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L299">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_AllowMSAA_" data-uid="Mux.Markup.Camera.AllowMSAA*"></a>
+  <h4 id="Mux_Markup_Camera_AllowMSAA" data-uid="Mux.Markup.Camera.AllowMSAA">AllowMSAA</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-allowMSAA.html">UnityEngine.Camera.allowMSAA</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AllowMSAA { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_BackgroundColor.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.BackgroundColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L315">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_BackgroundColor_" data-uid="Mux.Markup.Camera.BackgroundColor*"></a>
+  <h4 id="Mux_Markup_Camera_BackgroundColor" data-uid="Mux.Markup.Camera.BackgroundColor">BackgroundColor</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-backgroundColor.html">UnityEngine.Camera.backgroundColor</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Color BackgroundColor { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Color.html">UnityEngine.Color</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Mux_Markup_Camera_BackgroundColor_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Mux.Markup.Color.html">Color</a></div>
+      <div><a class="xref" href="Mux.Markup.Color32.html">Color32</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_CameraType.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.CameraType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L329">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_CameraType_" data-uid="Mux.Markup.Camera.CameraType*"></a>
+  <h4 id="Mux_Markup_Camera_CameraType" data-uid="Mux.Markup.Camera.CameraType">CameraType</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-cameraType.html">UnityEngine.Camera.cameraType</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.CameraType CameraType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/CameraType.html">UnityEngine.CameraType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_ClearFlags.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.ClearFlags%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L343">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_ClearFlags_" data-uid="Mux.Markup.Camera.ClearFlags*"></a>
+  <h4 id="Mux_Markup_Camera_ClearFlags" data-uid="Mux.Markup.Camera.ClearFlags">ClearFlags</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-clearFlags.html">UnityEngine.Camera.clearFlags</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.CameraClearFlags ClearFlags { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/CameraClearFlags.html">UnityEngine.CameraClearFlags</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_ClearStencilAfterLightingPass.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.ClearStencilAfterLightingPass%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L357">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_ClearStencilAfterLightingPass_" data-uid="Mux.Markup.Camera.ClearStencilAfterLightingPass*"></a>
+  <h4 id="Mux_Markup_Camera_ClearStencilAfterLightingPass" data-uid="Mux.Markup.Camera.ClearStencilAfterLightingPass">ClearStencilAfterLightingPass</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-clearStencilAfterLightingPass.html">UnityEngine.Camera.clearStencilAfterLightingPass</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ClearStencilAfterLightingPass { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_CullingMask.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.CullingMask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L371">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_CullingMask_" data-uid="Mux.Markup.Camera.CullingMask*"></a>
+  <h4 id="Mux_Markup_Camera_CullingMask" data-uid="Mux.Markup.Camera.CullingMask">CullingMask</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-cullingMask.html">UnityEngine.Camera.cullingMask</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CullingMask { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_Depth.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.Depth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L385">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_Depth_" data-uid="Mux.Markup.Camera.Depth*"></a>
+  <h4 id="Mux_Markup_Camera_Depth" data-uid="Mux.Markup.Camera.Depth">Depth</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-depth.html">UnityEngine.Camera.depth</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Depth { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_DepthTextureMode.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.DepthTextureMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L399">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_DepthTextureMode_" data-uid="Mux.Markup.Camera.DepthTextureMode*"></a>
+  <h4 id="Mux_Markup_Camera_DepthTextureMode" data-uid="Mux.Markup.Camera.DepthTextureMode">DepthTextureMode</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-depthTextureMode.html">UnityEngine.Camera.depthTextureMode</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.DepthTextureMode DepthTextureMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/DepthTextureMode.html">UnityEngine.DepthTextureMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_EventMask.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.EventMask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L413">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_EventMask_" data-uid="Mux.Markup.Camera.EventMask*"></a>
+  <h4 id="Mux_Markup_Camera_EventMask" data-uid="Mux.Markup.Camera.EventMask">EventMask</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-eventMask.html">UnityEngine.Camera.eventMask</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int EventMask { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_FarClipPlane.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.FarClipPlane%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L427">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_FarClipPlane_" data-uid="Mux.Markup.Camera.FarClipPlane*"></a>
+  <h4 id="Mux_Markup_Camera_FarClipPlane" data-uid="Mux.Markup.Camera.FarClipPlane">FarClipPlane</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-farClipPlane.html">UnityEngine.Camera.farClipPlane</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float FarClipPlane { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_FieldOfView.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.FieldOfView%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L441">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_FieldOfView_" data-uid="Mux.Markup.Camera.FieldOfView*"></a>
+  <h4 id="Mux_Markup_Camera_FieldOfView" data-uid="Mux.Markup.Camera.FieldOfView">FieldOfView</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-fieldOfView.html">UnityEngine.Camera.fieldOfView</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float FieldOfView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_FocalLength.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.FocalLength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L455">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_FocalLength_" data-uid="Mux.Markup.Camera.FocalLength*"></a>
+  <h4 id="Mux_Markup_Camera_FocalLength" data-uid="Mux.Markup.Camera.FocalLength">FocalLength</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-focalLength.html">UnityEngine.Camera.focalLength</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float FocalLength { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_ForceIntoRenderTexture.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.ForceIntoRenderTexture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L469">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_ForceIntoRenderTexture_" data-uid="Mux.Markup.Camera.ForceIntoRenderTexture*"></a>
+  <h4 id="Mux_Markup_Camera_ForceIntoRenderTexture" data-uid="Mux.Markup.Camera.ForceIntoRenderTexture">ForceIntoRenderTexture</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-forceIntoRenderTexture.html">UnityEngine.Camera.forceIntoRenderTexture</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ForceIntoRenderTexture { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_GateFit.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.GateFit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L483">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_GateFit_" data-uid="Mux.Markup.Camera.GateFit*"></a>
+  <h4 id="Mux_Markup_Camera_GateFit" data-uid="Mux.Markup.Camera.GateFit">GateFit</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-gateFit.html">UnityEngine.Camera.gateFit</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Camera.GateFitMode GateFit { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera.GateFitMode.html">UnityEngine.Camera.GateFitMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_LayerCullDistances.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.LayerCullDistances%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L497">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_LayerCullDistances_" data-uid="Mux.Markup.Camera.LayerCullDistances*"></a>
+  <h4 id="Mux_Markup_Camera_LayerCullDistances" data-uid="Mux.Markup.Camera.LayerCullDistances">LayerCullDistances</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-layerCullDistances.html">UnityEngine.Camera.layerCullDistances</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float[] LayerCullDistances { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_LayerCullSpherical.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.LayerCullSpherical%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L511">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_LayerCullSpherical_" data-uid="Mux.Markup.Camera.LayerCullSpherical*"></a>
+  <h4 id="Mux_Markup_Camera_LayerCullSpherical" data-uid="Mux.Markup.Camera.LayerCullSpherical">LayerCullSpherical</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-layerCullSpherical.html">UnityEngine.Camera.layerCullSpherical</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool LayerCullSpherical { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_LensShift.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.LensShift%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L526">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_LensShift_" data-uid="Mux.Markup.Camera.LensShift*"></a>
+  <h4 id="Mux_Markup_Camera_LensShift" data-uid="Mux.Markup.Camera.LensShift">LensShift</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-lensShift.html">UnityEngine.Camera.lensShift</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Vector2 LensShift { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector2.html">UnityEngine.Vector2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Mux_Markup_Camera_LensShift_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Mux.Markup.Vector2.html">Vector2</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_NearClipPlane.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.NearClipPlane%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L540">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_NearClipPlane_" data-uid="Mux.Markup.Camera.NearClipPlane*"></a>
+  <h4 id="Mux_Markup_Camera_NearClipPlane" data-uid="Mux.Markup.Camera.NearClipPlane">NearClipPlane</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-nearClipPlane.html">UnityEngine.Camera.nearClipPlane</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float NearClipPlane { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_OpaqueSortMode.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.OpaqueSortMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L554">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_OpaqueSortMode_" data-uid="Mux.Markup.Camera.OpaqueSortMode*"></a>
+  <h4 id="Mux_Markup_Camera_OpaqueSortMode" data-uid="Mux.Markup.Camera.OpaqueSortMode">OpaqueSortMode</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-opaqueSortMode.html">UnityEngine.Camera.opaqueSortMode</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Rendering.OpaqueSortMode OpaqueSortMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Rendering.OpaqueSortMode.html">UnityEngine.Rendering.OpaqueSortMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_Orthographic.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.Orthographic%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L568">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_Orthographic_" data-uid="Mux.Markup.Camera.Orthographic*"></a>
+  <h4 id="Mux_Markup_Camera_Orthographic" data-uid="Mux.Markup.Camera.Orthographic">Orthographic</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-orthographic.html">UnityEngine.Camera.orthographic</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Orthographic { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_OrthographicSize.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.OrthographicSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L582">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_OrthographicSize_" data-uid="Mux.Markup.Camera.OrthographicSize*"></a>
+  <h4 id="Mux_Markup_Camera_OrthographicSize" data-uid="Mux.Markup.Camera.OrthographicSize">OrthographicSize</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-orthographicSize.html">UnityEngine.Camera.orthographicSize</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float OrthographicSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_Rect.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.Rect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L596">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_Rect_" data-uid="Mux.Markup.Camera.Rect*"></a>
+  <h4 id="Mux_Markup_Camera_Rect" data-uid="Mux.Markup.Camera.Rect">Rect</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-rect.html">UnityEngine.Camera.rect</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Rect Rect { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Rect.html">UnityEngine.Rect</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_RenderingPath.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.RenderingPath%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L610">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_RenderingPath_" data-uid="Mux.Markup.Camera.RenderingPath*"></a>
+  <h4 id="Mux_Markup_Camera_RenderingPath" data-uid="Mux.Markup.Camera.RenderingPath">RenderingPath</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-renderingPath.html">UnityEngine.Camera.renderingPath</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.RenderingPath RenderingPath { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/RenderingPath.html">UnityEngine.RenderingPath</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_Scene.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.Scene%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L624">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_Scene_" data-uid="Mux.Markup.Camera.Scene*"></a>
+  <h4 id="Mux_Markup_Camera_Scene" data-uid="Mux.Markup.Camera.Scene">Scene</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-scene.html">UnityEngine.Camera.scene</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.SceneManagement.Scene Scene { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/SceneManagement.Scene.html">UnityEngine.SceneManagement.Scene</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_SensorSize.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.SensorSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L639">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_SensorSize_" data-uid="Mux.Markup.Camera.SensorSize*"></a>
+  <h4 id="Mux_Markup_Camera_SensorSize" data-uid="Mux.Markup.Camera.SensorSize">SensorSize</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-sensorSize.html">UnityEngine.Camera.sensorSize</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Vector2 SensorSize { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector2.html">UnityEngine.Vector2</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Mux_Markup_Camera_SensorSize_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Mux.Markup.Vector2.html">Vector2</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_StereoConvergence.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.StereoConvergence%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L653">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_StereoConvergence_" data-uid="Mux.Markup.Camera.StereoConvergence*"></a>
+  <h4 id="Mux_Markup_Camera_StereoConvergence" data-uid="Mux.Markup.Camera.StereoConvergence">StereoConvergence</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-stereoConvergence.html">UnityEngine.Camera.stereoConvergence</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float StereoConvergence { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_StereoSeparation.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.StereoSeparation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L667">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_StereoSeparation_" data-uid="Mux.Markup.Camera.StereoSeparation*"></a>
+  <h4 id="Mux_Markup_Camera_StereoSeparation" data-uid="Mux.Markup.Camera.StereoSeparation">StereoSeparation</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-stereoSeparation.html">UnityEngine.Camera.stereoSeparation</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float StereoSeparation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_StereoTargetEye.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.StereoTargetEye%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L681">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_StereoTargetEye_" data-uid="Mux.Markup.Camera.StereoTargetEye*"></a>
+  <h4 id="Mux_Markup_Camera_StereoTargetEye" data-uid="Mux.Markup.Camera.StereoTargetEye">StereoTargetEye</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-stereoTargetEye.html">UnityEngine.Camera.stereoTargetEye</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.StereoTargetEyeMask StereoTargetEye { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/StereoTargetEyeMask.html">UnityEngine.StereoTargetEyeMask</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_TargetDisplay.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.TargetDisplay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L695">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_TargetDisplay_" data-uid="Mux.Markup.Camera.TargetDisplay*"></a>
+  <h4 id="Mux_Markup_Camera_TargetDisplay" data-uid="Mux.Markup.Camera.TargetDisplay">TargetDisplay</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-targetDisplay.html">UnityEngine.Camera.targetDisplay</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TargetDisplay { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_TargetTexture.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.TargetTexture%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L709">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_TargetTexture_" data-uid="Mux.Markup.Camera.TargetTexture*"></a>
+  <h4 id="Mux_Markup_Camera_TargetTexture" data-uid="Mux.Markup.Camera.TargetTexture">TargetTexture</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-targetTexture.html">UnityEngine.Camera.targetTexture</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.RenderTexture TargetTexture { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/Manual/class-RenderTexture.html">UnityEngine.RenderTexture</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_TransparencySortAxis.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.TransparencySortAxis%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L724">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_TransparencySortAxis_" data-uid="Mux.Markup.Camera.TransparencySortAxis*"></a>
+  <h4 id="Mux_Markup_Camera_TransparencySortAxis" data-uid="Mux.Markup.Camera.TransparencySortAxis">TransparencySortAxis</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-transparencySortAxis.html">UnityEngine.Camera.transparencySortAxis</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.Vector3 TransparencySortAxis { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/Vector3.html">UnityEngine.Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Mux_Markup_Camera_TransparencySortAxis_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Mux.Markup.Vector3.html">Vector3</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_TransparencySortMode.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.TransparencySortMode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L738">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_TransparencySortMode_" data-uid="Mux.Markup.Camera.TransparencySortMode*"></a>
+  <h4 id="Mux_Markup_Camera_TransparencySortMode" data-uid="Mux.Markup.Camera.TransparencySortMode">TransparencySortMode</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-transparencySortMode.html">UnityEngine.Camera.transparencySortMode</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEngine.TransparencySortMode TransparencySortMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/TransparencySortMode.html">UnityEngine.TransparencySortMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_UseJitteredProjectionMatrixForTransparentRendering.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.UseJitteredProjectionMatrixForTransparentRendering%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L752">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_UseJitteredProjectionMatrixForTransparentRendering_" data-uid="Mux.Markup.Camera.UseJitteredProjectionMatrixForTransparentRendering*"></a>
+  <h4 id="Mux_Markup_Camera_UseJitteredProjectionMatrixForTransparentRendering" data-uid="Mux.Markup.Camera.UseJitteredProjectionMatrixForTransparentRendering">UseJitteredProjectionMatrixForTransparentRendering</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-useJitteredProjectionMatrixForTransparentRendering.html">UnityEngine.Camera.useJitteredProjectionMatrixForTransparentRendering</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseJitteredProjectionMatrixForTransparentRendering { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_UseOcclusionCulling.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.UseOcclusionCulling%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L766">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_UseOcclusionCulling_" data-uid="Mux.Markup.Camera.UseOcclusionCulling*"></a>
+  <h4 id="Mux_Markup_Camera_UseOcclusionCulling" data-uid="Mux.Markup.Camera.UseOcclusionCulling">UseOcclusionCulling</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-useOcclusionCulling.html">UnityEngine.Camera.useOcclusionCulling</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UseOcclusionCulling { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_UsePhysicalProperties.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.UsePhysicalProperties%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L780">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_UsePhysicalProperties_" data-uid="Mux.Markup.Camera.UsePhysicalProperties*"></a>
+  <h4 id="Mux_Markup_Camera_UsePhysicalProperties" data-uid="Mux.Markup.Camera.UsePhysicalProperties">UsePhysicalProperties</h4>
+  <div class="markdown level1 summary"><p>A property that represents <a class="xref" href="https://docs.unity3d.com/ScriptReference/Camera-usePhysicalProperties.html">UnityEngine.Camera.usePhysicalProperties</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool UsePhysicalProperties { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera_AwakeInMainThread.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera.AwakeInMainThread%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L794">View Source</a>
+  </span>
+  <a id="Mux_Markup_Camera_AwakeInMainThread_" data-uid="Mux.Markup.Camera.AwakeInMainThread*"></a>
+  <h4 id="Mux_Markup_Camera_AwakeInMainThread" data-uid="Mux.Markup.Camera.AwakeInMainThread">AwakeInMainThread()</h4>
+  <div class="markdown level1 summary"><p>A methot that actually wakes the node up in the main thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void AwakeInMainThread()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Mux.Markup.Behaviour&lt;UnityEngine.Camera&gt;.AwakeInMainThread()</span></div>
+  <h5 id="Mux_Markup_Camera_AwakeInMainThread_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This sets <a class="xref" href="https://docs.unity3d.com/ScriptReference/Behaviour-enabled.html">UnityEngine.Behaviour.enabled</a> which may prevents from setting other
+properties if the value is <code>false</code>. Therefore, this should be called after setting those
+properties in an overriding method.</p>
+</div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged">System.ComponentModel.INotifyPropertyChanged</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/xamarin.forms.internals.idynamicresourcehandler">Xamarin.Forms.Internals.IDynamicResourceHandler</a>
+  </div>
+  <script>
+      window.__webpack_public_path__ = "../playground/playground/";
+      const mux = (function *()
+      {
+          for (const { parentNode, textContent } of document.querySelectorAll("pre > code.lang-xaml"))
+          {
+              const viewNode = document.createElement("canvas");
+              const editorNode = document.createElement("div");
+              const containerNode = document.createElement("div");
+  
+              viewNode.style.width = "100%";
+              editorNode.style.height = "512px";
+              containerNode.appendChild(viewNode);
+              containerNode.appendChild(editorNode);
+              parentNode.parentNode.insertBefore(containerNode, parentNode);
+              parentNode.remove();
+  
+              yield { viewNode, editorNode, value: textContent };
+          }
+      })();
+  </script>
+  <script src="../playground/playground/playground.loader.js"></script>
+  <script async="" src="../playground/playground/main.js"></script>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/pixiv/Mux/new/master/apiSpec/new?filename=Mux_Markup_Camera.md&amp;value=---%0Auid%3A%20Mux.Markup.Camera%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/pixiv/Mux/blob/master/Runtime/Mux.Markup/Node/Behaviour/CameraNode.cs/#L20" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

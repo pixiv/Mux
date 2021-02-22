@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Mux </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Mux ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <svg aria-label="Toggle navigation" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" role="button" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M4 7a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1zm0 5a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1zm1 4a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H5z" fill="currentColor"></path>
+              </svg>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="navbar">
+              <form class="navbar-form" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="mux">Mux</h1>
+
+<p>Mux provides data binding infrastructure to Unity.</p>
+<h2 id="features">Features</h2>
+<p>Mux is useful as a powerful UI toolkit on Unity, integrated with Mux.Markup.UI.</p>
+<ul>
+<li>Fully Open-source including dependencies (except Unity itself)</li>
+<li>Hackable</li>
+<li>Text-based representation</li>
+<li>No more clicking and dragging</li>
+<li>Easy to merge</li>
+<li>Fully managed</li>
+<li>Full stacktrace</li>
+<li>High portability</li>
+<li>High stablity</li>
+<li>Compiler-backed</li>
+<li>Less overhead</li>
+<li>uGUI-backed</li>
+<li>Easy to migrate to/from uGUI</li>
+<li>Powers Unity Editor Inspector</li>
+<li>Has rich documentation</li>
+<li>Xamarin.Forms-backed</li>
+<li>Proven data template/data binding infrastructure for UI</li>
+<li>Has rich documentation</li>
+<li>Familiar for Xamarin.Forms/WPF developers</li>
+<li>Minimal</li>
+<li>High maintainability</li>
+<li>Hot Reload</li>
+<li>Fast iteration</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<p>Unity Editor must be 2020.2 or possibly newer.</p>
+<p>First, add this repository to the <a href="https://docs.unity3d.com/Manual/upm-dependencies.html"><code>Project</code> manifest as <code>com.pixiv.mux</code>, a dependency</a>.</p>
+<p>You will need Mux.Markup.UI (<code>com.pixiv.mux.markup.ui</code>) if you would like to integrate Mux with uGUI.
+Mux.Markup.Animation (<code>com.pixiv.mux.markup.animation</code>) is for animation.</p>
+<p>The target framework must be &quot;.NET 4.x&quot;.</p>
+<h2 id="api">API</h2>
+<p>The following APIs are available:</p>
+<h3 id="full-apis-of-systemcollectionsimmutable">Full APIs of <a href="https://www.nuget.org/packages/System.Collections.Immutable/">System.Collections.Immutable</a></h3>
+<p>System.Collections.Immutable &quot;provides collections that are thread safe and guaranteed to never change their contents,
+also known as immutable collections.&quot;</p>
+<h3 id="xamarinforms-xaml-runtime">Xamarin.Forms XAML Runtime</h3>
+<p>Xamarin.Forms XAML compiler and markups in <a href="https://docs.microsoft.com/ja-jp/dotnet/framework/xaml-services/xaml-2009-language-features">MS-XAML-2009</a>
+are available. The difference from the original runtime is that it compiles XAML by default.</p>
+<p>You can also <a href="https://docs.microsoft.com/ja-jp/xamarin/xamarin-forms/xaml/xaml-basics/xaml-markup-extensions">write your own markup extension</a>
+using <a href="https://docs.microsoft.com/ja-jp/dotnet/api/xamarin.forms.xaml.imarkupextension?view=xamarin-forms"><code>Xamarin.Forms.Xaml.IMarkupExtension</code></a>.
+It can be annoted with <a href="https://docs.microsoft.com/ja-jp/dotnet/api/xamarin.forms.xaml.acceptemptyserviceproviderattribute?view=xamarin-forms"><code>Xamarin.Forms.AcceptEmptyServiceProviderAttribute</code></a>,
+just like Xamarin.Forms markup extensions are.</p>
+<p><a href="https://docs.microsoft.com/ja-jp/dotnet/api/xamarin.forms.datatemplate?view=xamarin-forms"><code>DataTemplate</code></a> and
+<a href="https://docs.microsoft.com/ja-jp/dotnet/api/xamarin.forms.datatemplateselector?view=xamarin-forms"><code>DataTemplateSelector</code></a> are available.</p>
+<h3 id="xamarinforms-data-binding-infrastructure">Xamarin.Forms data binding infrastructure</h3>
+<p>In addition to markups in [MS-XAML-2009], a data binding infrastructure is proted from Xamarin.Forms.
+Specifically, it includes:</p>
+<ul>
+<li><a href="https://docs.microsoft.com/ja-jp/dotnet/api/xamarin.forms.bindableobject?view=xamarin-forms">Xamarin.Forms.BindableObject</a></li>
+<li><a href="https://docs.microsoft.com/ja-jp/dotnet/api/xamarin.forms.binding?view=xamarin-forms">Xamarin.Forms.Binding</a></li>
+<li><a href="https://docs.microsoft.com/ja-jp/dotnet/api/xamarin.forms.bindingbase?view=xamarin-forms">Xamarin.Forms.BindingBase</a></li>
+</ul>
+<h3 id="mux-apis">Mux APIs</h3>
+<p>Mux APIs provide Unity-specific runtime services and markups for Unity objects. Its documentation can be built with
+<a href="https://dotnet.github.io/docfx/">DocFX</a>.</p>
+<h4 id="the-playground-and-caveats">The playground and caveats</h4>
+<p>The documentation has a playground and exhibits examples with the component. However, there are something to be noted:</p>
+<ul>
+<li>The playground is built on <a href="#the-interpreter">an interpreter on IL2CPP</a>.</li>
+<li><a href="https://docs.unity3d.com/Manual/IL2CPP-BytecodeStripping.html">Managed bytecode stripping</a> is disabled for <code>Xamarin.Forms.Xaml</code> and Mux assemblies.</li>
+</ul>
+<h4 id="building-documentation">Building documentation</h4>
+<p>Building documentation requires the following:</p>
+<ul>
+<li>MSBuild</li>
+<li>NPM</li>
+<li>Node.js</li>
+</ul>
+<p>The following subprojects must be prepared as well:</p>
+<ul>
+<li>Mux.Markup.Animation at <code>.build/doc</code></li>
+<li>Mux.Markup.UI at <code>.build/doc</code></li>
+<li>Xamarin.Forms modified for Mux at <code>.build</code></li>
+</ul>
+<p>Run <code>Build</code> target of <code>.build/doc/doc.msbuildproj</code>. <code>PATH</code> environment variable must be configured so that <code>Unity</code>,
+<code>npm</code>, and <code>npx</code> can be resolved.</p>
+<h2 id="docfx-template">DocFX Template</h2>
+<p>DocFX template used for the documentation is available at <code>.docfx_template</code>. It is also used for
+<a href="https://developer.vroid.com/sdk/docs/VRoidSDK.html">VRoid SDK documentation</a>.</p>
+<p>You need to <a href="https://dotnet.github.io/docfx/tutorial/howto_create_custom_template.html#merge-template-with-default-template">merge it with the default template of DocFX</a>
+to make it functional.</p>
+<h2 id="incompatibility-with-il2cpp">Incompatibility with IL2CPP</h2>
+<h3 id="the-interpreter">The Interpreter</h3>
+<p>IL2CPP does not provide the constructor arguments of custom attributes. Due to that restriction,
+important attributes such as <a href="https://docs.microsoft.com/dotnet/api/xamarin.forms.contentpropertyattribute?view=xamarin-forms">Xamarin.Forms.ContentPropertyAttribute</a>
+will not work with the interpreter.</p>
+<p>A workaround is to use the compiler.</p>
+<h3 id="data-binding">Data binding</h3>
+<p>Normal data binding relies on reflection, and Unity linker fails to figure out dependencies on
+a property. You have two options to resolve the problem:</p>
+<ol>
+<li><p><a href="https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/data-binding/compiled-bindings">Use compiled bindings</a>.</p>
+</li>
+<li><p>Configure Unity Linker accordingly to prevent properties from being stripped.</p>
+</li>
+</ol>
+<p>See <a href="https://docs.unity3d.com/Manual/IL2CPP-BytecodeStripping.html">an article of Unity describing Unity linker</a>.</p>
+<h2 id="development">Development</h2>
+<h3 id="coding-style">Coding Style</h3>
+<p>Mux conforms to <a href="https://github.com/dotnet/corefx/blob/master/Documentation/coding-guidelines/coding-style.md">the .NET Core C# Coding Style</a>.
+Use <a href="https://github.com/akihikodaki/codeformatter/releases/tag/v1.0.0-alpha7-aki-r0">modified CodeFormatter</a> to format your code when developing Mux.</p>
+<pre><code>CodeFormatter /copyright:Copyright.txt CodeFormatter.rsp
+</code></pre>
+<h3 id="documentation">Documentation</h3>
+<p>Provide documentations for public APIs. Please make sure DocFX does not emit any warnings nor errors.</p>
+<p>Provide cross references to Unity with hyperlinks. You should check if the number of unresolved
+uid is increased by passing <code>--logLevel Verbose</code> when building the documentation.</p>
+<h3 id="xamarinforms-internal-dependencies">Xamarin.Forms internal dependencies</h3>
+<p>Although modifications of Xamarin.Forms made for Mux is minimal, Mux depends on a number of internal interfaces:</p>
+<ul>
+<li>Xamarin.Forms.Build.Tasks.XamlCTask (Note that Mux uses the task <em>without</em> full MSBuild.)</li>
+<li><a href="https://docs.microsoft.com/dotnet/api/xamarin.forms.bindableobject.setvaluecore?view=xamarin-forms">Xamarin.Forms.BindableObject.SetValueCore</a></li>
+<li><a href="https://docs.microsoft.com/dotnet/api/xamarin.forms.device.platformservices?view=xamarin-forms">Xamarin.Forms.Device.PlatformServices</a></li>
+<li><a href="https://docs.microsoft.com/dotnet/api/xamarin.forms.device.info_1?view=xamarin-forms">Xamarin.Forms.Device.Info</a></li>
+<li><a href="https://docs.microsoft.com/dotnet/api/xamarin.forms.internals.deviceinfo?view=xamarin-forms">Xamarin.Forms.Internals.DeviceInfo</a></li>
+<li><a href="https://docs.microsoft.com/dotnet/api/xamarin.forms.internals.iplatformservices?view=xamarin-forms">Xamarin.Forms.Internals.IPlatformServices</a></li>
+<li><a href="https://docs.microsoft.com/dotnet/api/xamarin.forms.internals.iresourcedictionary?view=xamarin-forms">Xamarin.Forms.Internals.IResourceDictionary</a></li>
+<li><a href="https://docs.microsoft.com/dotnet/api/xamarin.forms.internals.isystemresourcesprovider?view=xamarin-forms">Xamarin.Forms.Internals.ISystemResourcesProvider</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/api/xamarin.forms.internals.inamescope.findbyname?view=xamarin-forms">Xamarin.Forms.Internals.INameScope.FindByName</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/api/xamarin.forms.internals.namescope.getnamescope?view=xamarin-forms">Xamarin.Forms.Internals.NameScope.GetNameScope</a></li>
+<li><a href="https://docs.microsoft.com/en-us/dotnet/api/xamarin.forms.internals.resourceloader.resourceprovider2?view=xamarin-forms">Xamarin.Forms.Internals.ResourceLoader.ResourceProvider2</a></li>
+<li><a href="https://docs.microsoft.com/dotnet/api/xamarin.forms.internals.ticker?view=xamarin-forms">Xamarin.Forms.Internals.Ticker</a></li>
+<li>Xamarin.Forms.ListProxy</li>
+<li><a href="https://docs.microsoft.com/dotnet/api/xamarin.forms.xaml.typeconversionattribute?view=xamarin-forms">Xamarin.Forms.Xaml.TypeConversionAttribute</a></li>
+<li><a href="https://docs.microsoft.com/dotnet/api/xamarin.forms.xaml.xamlresourceidattribute?view=xamarin-forms">Xamarin.Forms.Xaml.XamlResourceIdAttribute</a></li>
+</ul>
+<p>Changes for those interfaces must be reviewed when altering Xamarin.Forms libraries.</p>
+<h3 id="external-dependencies">External dependencies</h3>
+<p>Mux includes external dependencies. You can remove existing dependencies and recreate.</p>
+<p>Run <code>Clean</code> target of <code>.build/Mux.msbuildproj</code> to clean all dependencies.</p>
+<p>Run its <code>Build</code> target <em>on Mono</em> to recreate.</p>
+<h2 id="licenses">Licenses</h2>
+<p>See <code>Licenses</code> directory or &quot;Licenses&quot; article of the documentation.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/pixiv/Mux/blob/master/.build/doc/articles/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>
